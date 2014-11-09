@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../../units/schema/language.dtd">
+<document>
+
+	<a
+		class="$section == 'Purchase' ? 'active' : false"
+		href="url_Make('', 'Purchase')"
+		cms:eval="href"
+		cms:optional="class"
+		>
+		<cms:text constant="Purchase"/>
+	</a>
+	<a
+		class="$section == 'The_Area' ? 'active' : false"
+		href="url_Make('', 'The_Area')"
+		cms:eval="href"
+		cms:optional="class"
+		>
+		<cms:text constant="The_Area"/>
+	</a>
+	<a
+		class="$section == 'contact' ? 'active' : false"
+		href="url_Make('', 'contact')"
+		cms:eval="href"
+		cms:optional="class"
+		>
+		<cms:text constant="contact"/>
+	</a>
+
+	<a
+		class="$section == 'FAQ' ? 'active' : false"
+		href="url_Make('', 'FAQ')"
+		cms:eval="href"
+		cms:optional="class"
+		>
+		<cms:text constant="FAQ"/>
+	</a>
+	<a
+		class="$section == 'Registry_Lookup' ? 'active' : false"
+		href="url_Make('', 'Registry_Lookup')"
+		cms:eval="href"
+		cms:optional="class"
+		>
+		<cms:text constant="Registry_Lookup"/>
+	</a>
+</document>

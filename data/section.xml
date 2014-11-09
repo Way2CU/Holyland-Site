@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/section.dtd">
+<document>
+	<section name="home">
+		<language name="all" file="home.xml" />
+	</section>
+	<section name="Purchase">
+		<language name="all" file="Purchase.xml" />
+	</section>
+	<section name="The_Area">
+		<language name="all" file="The_Area.xml" />
+	</section>
+	<section name="contact">
+		<language name="all" file="contact.xml" />
+	</section>
+	<section name="FAQ">
+		<language name="all" file="FAQ.xml" />
+	</section>
+	<section name="Registry_Lookup">
+		<language name="all" file="Registry_Lookup.xml" />
+	</section>
+</document>

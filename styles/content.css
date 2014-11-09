@@ -1,0 +1,178 @@
+/**
+ * Content Style Sheet
+ * Holyland
+ *
+ * Copyright (c) 2014. by Way2CU, http://way2cu.com
+ * Author: Khalid Sawalhi
+ */
+
+ div.inner_wrap {
+ 	display: block;
+ 	max-width: 1200px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	position: relative;
+ }
+
+ div.wrap.white {
+ 	background-color: white;
+ }
+
+div.wrap.white div.pricing_container {
+	padding-top: 300px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+div.wrap.white div.pricing_container article {
+  	display: inline-block;
+  	vertical-align: top;
+  	width: 390px;
+  	min-height: 415px;
+  	border: 1px solid #bcc2c6;
+  	position: relative;
+}
+
+div.wrap.white div.pricing_container article:before {
+	position: absolute;
+	top: -240px;
+	left: 50%;
+	margin-left: -129px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: auto 214px;
+	width: 259px;
+	height: 214px;
+	content: ''; 
+}
+
+div.wrap.white div.pricing_container article:nth-of-type(1):before {
+	background-image: url(../images/standard-gift-package.png);
+}
+
+div.wrap.white div.pricing_container article:nth-of-type(2):before {
+	background-image: url(../images/premium-gift-package.png);
+}
+
+div.wrap.white div.pricing_container article:nth-of-type(3):before {
+	background-image: url(../images/deluxe-gift-package.png);
+}
+
+div.wrap.white div.pricing_container article:nth-of-type(1) h2 {
+	color: #7e8b8c;
+}
+
+div.wrap.white div.pricing_container article:nth-of-type(2) h2 {
+	color: #33516f;
+}
+
+div.wrap.white div.pricing_container article:nth-of-type(3) h2 {
+	color: #cda349;
+}
+
+div.wrap.white div.pricing_container article a {
+	display: block;
+	max-width: 200px;
+	margin: 0px auto;
+	text-decoration: none;
+	color: white;
+	background-color: #375d4c;
+	padding: 10px 20px;
+	border: 1px solid #375d4c;
+	border-radius: 5px;
+	font-size: 1.5rem;
+}
+
+div.wrap.white div.pricing_container article p {
+	color: #7e8b8c;
+}
+
+div.wrap.white div.pricing_container article:nth-of-type(2) a {
+	background-color: #33516f;
+	border-color: #33516f;
+}
+
+div.wrap.white div.pricing_container article:nth-of-type(3) a {
+	background-color: #cda349;
+	border-color: #cda349;	
+}
+
+
+div.wrap.white div.location_container {
+	background-image: url(../images/tree.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: auto 500px;
+	min-height: 500px;
+	padding-left: 450px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+div.wrap.white div.location_container article {
+	max-width: 600px;
+	padding-bottom: 60px;
+	color: #7e8b8c;
+}
+
+div.wrap.white div.location_container article p {
+	max-width: 400px;
+}
+
+div.wrap.white div.location_container article + span {
+	color: #fc4a45;
+	font-size: 2rem;
+}
+
+div.wrap.white div.location_container div.call_to_action {
+	padding-top: 20px;
+}
+
+div.wrap.white div.location_container div.call_to_action a {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	border: 1px solid #fc4a45;
+	background-color: #fc4a45;
+	font-size: 1.5rem;
+	margin: 0px 10px;
+	border-radius: 5px;
+}
+
+div.wrap.white div.location_container div.call_to_action a:nth-of-type(2) {
+	background-image: url(../images/icon-arrow.svg);
+	background-repeat: no-repeat;
+	background-position: 0.3em center;
+	background-size: auto 38px;
+	padding: 13px 20px 13px 50px;
+	font-size: 1.3rem;
+	text-align: left;
+	background-color: white;
+	border-color: #bcc2c6;
+	color: #7e8b8c;
+}
+
+div.wrap.video {
+	background-color: #6398b0;
+	padding-bottom: 50px;
+}
+
+div.wrap.video div.inner_wrap > span {
+	display: block;
+	text-align: center;
+	max-width: 660px;
+	font-size: 3.1rem;
+	color: white;
+	margin: 0px auto;
+	padding: 50px 0px;
+}
+
+
+div.wrap.video div.inner_wrap iframe.video {
+	display: block;
+	margin: 0px auto;
+	border: 5px solid white;
+}

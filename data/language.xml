@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/language.dtd">
+<document>
+	<language name="English" short="en">
+		<constant name="site_title">Site title</constant>
+
+		<!-- Nav menu -->
+		<constant name="Purchase">Purchase</constant>
+		<constant name="The_Area">The Area</constant>
+		<constant name="contact">Contact</constant>
+		<constant name="FAQ">FAQ</constant>
+		<constant name="Registry_Lookup">Registry Lookup</constant>
+		<constant name="Get_Started">Get Started</constant>
+
+		<!-- Header -->
+		<constant name="purchase_piece">PURCHASE ASYMBOLIC PIECE OF LAND</constant>
+		<constant name="in_holyland">IN THE HOLY LAND</constant>
+		<constant name="limited_number">- LIMITED NUMBER OF LOTS AVAILABLE -</constant>
+		<constant name="best_package">GET THE BEST PACKAGE FOR YOU</constant>
+
+		<!-- links -->
+		<constant name="for_myself">FOR MYSELF</constant>
+		<constant name="as_gift">AS A GIFT</constant>
+		<constant name="order_package">Order Package</constant>
+
+		<!-- Home Page  -->
+		<constant name="get_piece">Get A piece of the Holy Land</constant>
+		<constant name="See_packages_prices">See the packages and prices</constant>
+		<constant name="watch_video">WATCH OUR EXPLENATION VIDEO</constant>
+	</language>
+</document>

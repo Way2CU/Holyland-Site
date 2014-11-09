@@ -1,0 +1,141 @@
+/**
+ * Header Style Sheet
+ * Holyland
+ *
+ * Copyright (c) 2014. by Way2CU, http://way2cu.com
+ * Author: Khalid Sawalhi
+ */
+
+header div.inner_wrap {
+	padding: 20px 0px;
+}
+
+header.home {
+	background-image: url(../images/header-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: auto 600px;
+	min-height: 600px;
+}
+
+header.home div.wrap.opacity {
+	background-color: white;
+	background-color: rgba(255, 255, 255, 0.2);
+	position: fixed;
+	width: 100%;
+} 
+
+header div.inner_wrap a.logo {
+	display: inline-block;
+	vertical-align: top;
+}
+
+header nav#main {
+	position: absolute;
+	width: 700px;
+	left: 50%;
+	top: 20px;
+	margin-left: -350px;
+}
+
+header nav#main a {
+	display: inline-block;
+	margin: 0px 5px;
+	padding:10px;
+	font-size: 1.3rem;
+	color: white;
+	text-decoration: none;
+	vertical-align: top;
+
+	transition: 0.3s all;
+}
+
+header nav#main a:hover {
+	background-color: #fc4a45;
+}
+
+header div.inner_wrap a.cart {
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: #fc4a45;
+	position: absolute;
+	top: 20px;
+	right: 0px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 1.2rem;
+
+	transition: 0.3s all;
+}
+
+header div.inner_wrap a.cart:nth-of-type(2) {
+	height: 33px;
+	padding: 0px;
+	background-color: white;
+	right: 130px;
+}
+
+header div.inner_wrap a.cart:hover {
+	background-color: #fac825;
+}
+
+header.home div.inner_wrap.center {
+	min-height: 550px;
+	padding-left: 200px;
+}
+
+header.home div.inner_wrap.center > h4 {
+	margin: 0px;
+	padding-top: 170px;
+	font-weight: normal;
+	color: white;
+}
+
+header.home div.inner_wrap.center > h4 + h1 {
+	margin: 0px;
+	padding-top: 5px;
+	color: white;
+	font-size: 3.2rem;
+}
+
+header.home div.inner_wrap.center div.call_to_action {
+	padding-top: 30px;
+}
+
+header.home div.inner_wrap.center div.call_to_action a {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	border: 1px solid #fc4a45;
+	background-color: #fc4a45;
+	font-size: 1.5rem;
+	margin: 0px 10px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.50);
+}
+
+header.home div.inner_wrap.center div.call_to_action a:nth-of-type(2) {
+	padding: 10px 30px;
+	background-color: #fac825;
+	border-color: #fac825;
+}
+
+header.home div.inner_wrap.center div.call_to_action + span {
+	display: block;
+	padding-top: 30px;
+	margin-left: 100px;
+	color: white;
+}
+
+header.home div.inner_wrap.center div.call_to_action + span + span {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	font-size: 3.3rem;
+	text-align: center;
+	color: #7e8b8c;
+}
