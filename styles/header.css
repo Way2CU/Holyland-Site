@@ -23,7 +23,13 @@ header.home div.wrap.opacity {
 	background-color: rgba(255, 255, 255, 0.2);
 	position: fixed;
 	width: 100%;
+	z-index: 1;
+	transition: 0.5s all;
 } 
+
+header.home div.wrap.opacity.menu_blue {
+	background-color: #33516f;
+}
 
 header div.inner_wrap a.logo {
 	display: inline-block;
@@ -81,13 +87,14 @@ header div.inner_wrap a.cart:hover {
 }
 
 header.home div.inner_wrap.center {
-	min-height: 550px;
+	min-height: 350px;
 	padding-left: 200px;
+	position: relative;
+	top: 190px
 }
 
 header.home div.inner_wrap.center > h4 {
 	margin: 0px;
-	padding-top: 170px;
 	font-weight: normal;
 	color: white;
 }
