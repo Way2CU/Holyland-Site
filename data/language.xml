@@ -27,5 +27,6 @@
 		<constant name="get_piece">Get A piece of the Holy Land</constant>
 		<constant name="See_packages_prices">See the packages and prices</constant>
 		<constant name="watch_video">WATCH OUR EXPLENATION VIDEO</constant>
+		<constant name="amazing_places_land">AMZING PLACES IN WALKING DISTANCE FROM YOUR LAND</constant>
 	</language>
 </document>
