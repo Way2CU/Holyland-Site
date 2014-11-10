@@ -65,6 +65,18 @@
 					/>
 				</div>
 			</div>
+
+			<div class="wrap white area">
+				<div class="inner_wrap">
+					<span><cms:text constant="amazing_places_land"/></span>
+					<cms:module
+						name="articles"
+						action="show_list"
+						group="area_home"
+						template="parts/area.xml"
+					/>
+				</div>
+			</div>
 		</body>
 	</html>
 </document>
