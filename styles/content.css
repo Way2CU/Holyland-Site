@@ -19,7 +19,7 @@
  }
 
 div.wrap.white div.pricing_container {
-	padding-top: 300px;
+	padding-top: 270px;
 	padding-bottom: 50px;
 	text-align: center;
 }
@@ -175,4 +175,57 @@ div.wrap.video div.inner_wrap iframe.video {
 	display: block;
 	margin: 0px auto;
 	border: 5px solid white;
+}
+
+div.wrap.white div.inner_wrap > span {
+	display: block;
+	margin: 0px auto;
+	padding: 30px 0px;
+	color: #7e8b8c;
+	font-size: 3.3rem;
+	text-align: center;
+}
+
+div.wrap.white.area div.inner_wrap article {
+	display: inline-block;
+	vertical-align: top;
+	width: 340px;
+	background-image: url(../images/arbel-village.jpg);
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 210px auto;
+	padding-left: 230px;
+	margin: 30px 0px;
+}
+
+div.wrap.white.area div.inner_wrap article:nth-of-type(2) {
+	background-image: url(../images/bethsaida.jpg);	
+}
+
+div.wrap.white.area div.inner_wrap article:nth-of-type(3) {
+	background-image: url(../images/mount-of-beatitudes.jpg);	
+}
+
+div.wrap.white.area div.inner_wrap article:nth-of-type(4) {
+	background-image: url(../images/sea-of-galilee.jpg);	
+}
+
+div.wrap.white.area div.inner_wrap article:nth-of-type(5) {
+	background-image: url(../images/chorazin.jpg);	
+}
+
+div.wrap.white.area div.inner_wrap article:nth-of-type(6) {
+	background-image: url(../images/ginosar.jpg);	
+}
+
+div.wrap.white.area div.inner_wrap article h3 {
+	margin: 0px;
+	padding-bottom: 10px;
+	font-size: 1.2rem;
+	color:#33516f;
+}
+div.wrap.white.area div.inner_wrap article p {
+	max-width: 300px;
+	margin: 0px;
+	color: #7e8b8c;
 }
