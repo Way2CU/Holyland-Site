@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/language.dtd">
+<document>
+	<cms:var name="_DOCTYPE"/>
+	<html lang="$language" cms:eval="lang">
+		<head>
+			<title><cms:text constant="site_title"/></title>
+			<cms:module name="head_tag" action="print_tag"/>
+		</head>
+
+		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
+			<cms:template file="parts/header.xml"/>
+			<div class="wrap white process">
+				<div class="inner_wrap">
+					<span><cms:text constant="how_purchase"/></span>
+					<cms:module
+						name="articles"
+						action="show_list"
+						group="process"
+						template="parts/process.xml"
+					/>
+				</div>
+			</div>
+			<div class="wrap grey">
+				<div class="inner_wrap">
+					<span><cms:text constant="choose_package"/></span>
+					<div class="pricing_container">
+						<cms:module
+							name="articles"
+							action="show_list"
+							group="pricing_table"
+							template="parts/pricing.xml"
+						/>
+					</div>
+				</div>
+			</div>
+			<div class="wrap white location">
+				<div class="inner_wrap">
+					<span><cms:text constant="those_purchasing"/></span>
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="location_purchase"
+						template="parts/process.xml"
+					/>
+				</div>
+			</div>
+			<cms:template file="parts/footer.xml"/>
+		</body>
+	</html>
+</document>

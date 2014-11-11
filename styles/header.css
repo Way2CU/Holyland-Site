@@ -27,7 +27,7 @@ header.home div.wrap.opacity {
 	transition: 0.5s all;
 } 
 
-header.home div.wrap.opacity.menu_blue {
+header div.wrap.opacity.menu_blue {
 	background-color: #33516f;
 }
 
@@ -93,24 +93,24 @@ header.home div.inner_wrap.center {
 	top: 190px
 }
 
-header.home div.inner_wrap.center > h4 {
+div.inner_wrap.center > h4 {
 	margin: 0px;
 	font-weight: normal;
 	color: white;
 }
 
-header.home div.inner_wrap.center > h4 + h1 {
+div.inner_wrap.center > h4 + h1 {
 	margin: 0px;
 	padding-top: 5px;
 	color: white;
 	font-size: 3.2rem;
 }
 
-header.home div.inner_wrap.center div.call_to_action {
+div.inner_wrap.center div.call_to_action {
 	padding-top: 30px;
 }
 
-header.home div.inner_wrap.center div.call_to_action a {
+div.inner_wrap.center div.call_to_action a {
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
@@ -125,20 +125,23 @@ header.home div.inner_wrap.center div.call_to_action a {
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.50);
 }
 
-header.home div.inner_wrap.center div.call_to_action a:nth-of-type(2) {
+div.inner_wrap.center div.call_to_action a:nth-of-type(2) {
 	padding: 10px 30px;
 	background-color: #fac825;
 	border-color: #fac825;
 }
 
-header.home div.inner_wrap.center div.call_to_action + span {
+div.inner_wrap.center div.call_to_action + span {
 	display: block;
 	padding-top: 30px;
-	margin-left: 100px;
 	color: white;
 }
 
-header.home div.inner_wrap.center div.call_to_action + span + span {
+header div.inner_wrap.center div.call_to_action + span {
+	margin-left: 100px;
+}
+
+div.inner_wrap.center div.call_to_action + span + span {
 	display: block;
 	position: absolute;
 	bottom: 0px;

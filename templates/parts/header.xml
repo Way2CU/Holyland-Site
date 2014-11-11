@@ -2,68 +2,110 @@
 <!DOCTYPE document SYSTEM "../../units/schema/language.dtd">
 <document>
 	<header>
-		<cms:if section="home">
-			<div class="wrap opacity">
-				<div class="inner_wrap">
-						<a
-							href="url_Make('', 'home')"
-							class="logo"
-							cms:eval="href"
-							>
-								<img
-									src="_BASEURL.'/site/images/logo-yellow.svg'"
-									alt="logo"
-									cms:eval="src"
-								/>
-						</a>	
-						<!-- Main menu -->
-						<nav id="main">
-							<cms:template file="parts/main_menu.xml"/>
-						</nav>
-						<a
-							 href="url_Make('', 'Purchase')"
-							 cms:eval="href"
-							 eval="href" 
-							 class="cart"
-						>
-						<img
-							src="_BASEURL.'/site/images/cart.svg'"
-							alt="cart"
-							cms:eval="src"
-						/>
-					</a>
+
+	<cms:if section="home">
+		<div class="wrap opacity">
+			<div class="inner_wrap">
 					<a
-						href="url_Make('', 'Purchase')"
+						href="url_Make('', 'home')"
+						class="logo"
 						cms:eval="href"
+						>
+							<img
+								src="_BASEURL.'/site/images/logo-yellow.svg'"
+								alt="logo"
+								cms:eval="src"
+							/>
+					</a>	
+					<!-- Main menu -->
+					<nav id="main">
+						<cms:template file="parts/main_menu.xml"/>
+					</nav>
+					<a
+						 href="url_Make('', 'Purchase')"
+						 cms:eval="href"
+						 eval="href" 
 						 class="cart"
-						 eval="href" 
 					>
-						<cms:text constant="Get_Started"/>
-					</a>
-				</div>
+					<img
+						src="_BASEURL.'/site/images/cart.svg'"
+						alt="cart"
+						cms:eval="src"
+					/>
+				</a>
+				<a
+					href="url_Make('', 'Purchase')"
+					cms:eval="href"
+					 class="cart"
+					 eval="href" 
+				>
+					<cms:text constant="Get_Started"/>
+				</a>
 			</div>
-			<div class="inner_wrap center">
-				<h4><cms:text constant="purchase_piece"/></h4>
-				<h1><cms:text constant="in_holyland"/></h1>
-				<div class="call_to_action">
-					<a
-						 href=""
-						 eval="href" 
-					>
-						<cms:text constant="for_myself"/>
-					</a>
+		</div>
+		<div class="inner_wrap center">
+			<h4><cms:text constant="purchase_piece"/></h4>
+			<h1><cms:text constant="in_holyland"/></h1>
+			<div class="call_to_action">
+				<a
+					 href=""
+					 eval="href" 
+				>
+					<cms:text constant="for_myself"/>
+				</a>
 
-					<a
-						 href=""
-						 eval="href" 
-					>
-						<cms:text constant="as_gift"/>
-					</a>
-				</div>
-				<span><cms:text constant="limited_number"/></span>
-				<span><cms:text constant="best_package"/></span>
+				<a
+					 href=""
+					 eval="href" 
+				>
+					<cms:text constant="as_gift"/>
+				</a>
 			</div>
-		</cms:if>
+			<span><cms:text constant="limited_number"/></span>
+			<span><cms:text constant="best_package"/></span>
+		</div>
+	</cms:if>
 
+	<cms:if section="purchase">
+		<div class="wrap opacity menu_blue">
+			<div class="inner_wrap">
+					<a
+						href="url_Make('', 'home')"
+						class="logo"
+						cms:eval="href"
+						>
+							<img
+								src="_BASEURL.'/site/images/logo-yellow.svg'"
+								alt="logo"
+								cms:eval="src"
+							/>
+					</a>	
+					<!-- Main menu -->
+					<nav id="main">
+						<cms:template file="parts/main_menu.xml"/>
+					</nav>
+					<a
+						 href="url_Make('', 'Purchase')"
+						 cms:eval="href"
+						 eval="href" 
+						 class="cart"
+					>
+					<img
+						src="_BASEURL.'/site/images/cart.svg'"
+						alt="cart"
+						cms:eval="src"
+					/>
+				</a>
+				<a
+					href="url_Make('', 'Purchase')"
+					cms:eval="href"
+					 class="cart"
+					 eval="href" 
+				>
+					<cms:text constant="Get_Started"/>
+				</a>
+			</div>
+		</div>
+	</cms:if>
 	</header>
 </document>

@@ -18,13 +18,13 @@
  	background-color: white;
  }
 
-div.wrap.white div.pricing_container {
+div.wrap div.pricing_container {
 	padding-top: 270px;
 	padding-bottom: 50px;
 	text-align: center;
 }
 
-div.wrap.white div.pricing_container article {
+div.wrap div.pricing_container article {
   	display: inline-block;
   	vertical-align: top;
   	width: 390px;
@@ -33,7 +33,7 @@ div.wrap.white div.pricing_container article {
   	position: relative;
 }
 
-div.wrap.white div.pricing_container article:before {
+div.wrap div.pricing_container article:before {
 	position: absolute;
 	top: -240px;
 	left: 50%;
@@ -46,31 +46,31 @@ div.wrap.white div.pricing_container article:before {
 	content: ''; 
 }
 
-div.wrap.white div.pricing_container article:nth-of-type(1):before {
+div.wrap div.pricing_container article:nth-of-type(1):before {
 	background-image: url(../images/standard-gift-package.png);
 }
 
-div.wrap.white div.pricing_container article:nth-of-type(2):before {
+div.wrap div.pricing_container article:nth-of-type(2):before {
 	background-image: url(../images/premium-gift-package.png);
 }
 
-div.wrap.white div.pricing_container article:nth-of-type(3):before {
+div.wrap div.pricing_container article:nth-of-type(3):before {
 	background-image: url(../images/deluxe-gift-package.png);
 }
 
-div.wrap.white div.pricing_container article:nth-of-type(1) h2 {
+div.wrap div.pricing_container article:nth-of-type(1) h2 {
 	color: #7e8b8c;
 }
 
-div.wrap.white div.pricing_container article:nth-of-type(2) h2 {
+div.wrap div.pricing_container article:nth-of-type(2) h2 {
 	color: #33516f;
 }
 
-div.wrap.white div.pricing_container article:nth-of-type(3) h2 {
+div.wrap div.pricing_container article:nth-of-type(3) h2 {
 	color: #cda349;
 }
 
-div.wrap.white div.pricing_container article a {
+div.wrap div.pricing_container article a {
 	display: block;
 	max-width: 200px;
 	margin: 0px auto;
@@ -83,16 +83,16 @@ div.wrap.white div.pricing_container article a {
 	font-size: 1.5rem;
 }
 
-div.wrap.white div.pricing_container article p {
+div.wrap div.pricing_container article p {
 	color: #7e8b8c;
 }
 
-div.wrap.white div.pricing_container article:nth-of-type(2) a {
+div.wrap div.pricing_container article:nth-of-type(2) a {
 	background-color: #33516f;
 	border-color: #33516f;
 }
 
-div.wrap.white div.pricing_container article:nth-of-type(3) a {
+div.wrap div.pricing_container article:nth-of-type(3) a {
 	background-color: #cda349;
 	border-color: #cda349;	
 }
@@ -228,4 +228,68 @@ div.wrap.white.area div.inner_wrap article p {
 	max-width: 300px;
 	margin: 0px;
 	color: #7e8b8c;
+}
+
+div.wrap.white.process div.inner_wrap article {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	background-image: url(../images/seal.jpg);
+	padding: 170px 30px 10px 30px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: auto 151px;
+	position: relative;
+}
+
+div.wrap.white.process div.inner_wrap article:nth-of-type(2) {
+	background-image: url(../images/id.jpg);
+}
+
+div.wrap.white.process div.inner_wrap article:nth-of-type(3) {
+	background-image: url(../images/certificate.jpg);
+}
+
+div.wrap.white.process div.inner_wrap article p {
+	max-width: 340px;
+}
+
+div.wrap.grey {
+	background-color: #ebeff0;
+}
+
+div.wrap.grey div.inner_wrap > span {
+	display: block;
+	margin: 0px auto;
+	padding: 30px 0px;
+	color: #7e8b8c;
+	font-size: 3.3rem;
+	text-align: center;
+}
+
+div.wrap.white.location div.inner_wrap article {
+	padding-left: 20px;
+	padding-right: 590px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image: url(../images/map.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 453px;
+	background-position: right center;
+}
+
+div.wrap.white.location div.inner_wrap p {
+	color: #7e8b8c;
+	position: relative;
+}
+
+div.wrap.white.location div.inner_wrap p:before {
+	content: '';
+	position: absolute;
+	left: -40px;
+	top: 5px;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: #7e8b8c;
 }

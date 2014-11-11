@@ -77,6 +77,8 @@
 					/>
 				</div>
 			</div>
+
+			<cms:template file="parts/footer.xml"/>
 		</body>
 	</html>
 </document>

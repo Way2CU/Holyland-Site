@@ -28,5 +28,10 @@
 		<constant name="See_packages_prices">See the packages and prices</constant>
 		<constant name="watch_video">WATCH OUR EXPLENATION VIDEO</constant>
 		<constant name="amazing_places_land">AMZING PLACES IN WALKING DISTANCE FROM YOUR LAND</constant>
+
+		<!-- Purches -->
+		<constant name="how_purchase">HOW TO PURCHASE YOUR PARCEL</constant>
+		<constant name="choose_package">CHOOSE A PACKAGE</constant>
+		<constant name="those_purchasing">FOR THOSE PURCHASING THE DELUXE PACKAGE ONLY:</constant>
 	</language>
 </document>

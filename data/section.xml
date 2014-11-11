@@ -4,19 +4,19 @@
 	<section name="home">
 		<language name="all" file="home.xml" />
 	</section>
-	<section name="Purchase">
-		<language name="all" file="Purchase.xml" />
+	<section name="purchase">
+		<language name="all" file="purchase.xml" />
 	</section>
-	<section name="The_Area">
-		<language name="all" file="The_Area.xml" />
+	<section name="the_Area">
+		<language name="all" file="the_Area.xml" />
 	</section>
 	<section name="contact">
 		<language name="all" file="contact.xml" />
 	</section>
-	<section name="FAQ">
-		<language name="all" file="FAQ.xml" />
+	<section name="faq">
+		<language name="all" file="faq.xml" />
 	</section>
-	<section name="Registry_Lookup">
-		<language name="all" file="Registry_Lookup.xml" />
+	<section name="registry_lookup">
+		<language name="all" file="registry_lookup.xml" />
 	</section>
 </document>
