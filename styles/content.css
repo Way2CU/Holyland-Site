@@ -230,6 +230,10 @@ div.wrap.white.area div.inner_wrap article p {
 	color: #7e8b8c;
 }
 
+div.wrap.white.process div.inner_wrap {
+	padding-top: 90px;
+}
+
 div.wrap.white.process div.inner_wrap article {
 	display: inline-block;
 	vertical-align: top;
