@@ -18,7 +18,24 @@ header.home {
 	min-height: 600px;
 }
 
-header div.wrap.opacity {
+
+header div#top_menu , header.detached div#top_menu , header.home.detached div#top_menu {
+	background-color: #33516f;
+}
+
+header.detached div#top_menu {
+	width: 100%;
+
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+	
+	z-index: 10000;
+}
+
+header.home div#top_menu {
 	background-color: white;
 	background-color: rgba(255, 255, 255, 0.2);
 	position: fixed;
@@ -26,10 +43,6 @@ header div.wrap.opacity {
 	z-index: 1;
 	transition: 0.5s all;
 } 
-
-header div.wrap.opacity.menu_blue {
-	background-color: #33516f;
-}
 
 header div.inner_wrap a.logo {
 	display: inline-block;

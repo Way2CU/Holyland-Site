@@ -10,8 +10,8 @@
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
 			<cms:template file="parts/header.xml"/>
-			<div class="wrap white process">
-				<div class="inner_wrap">
+			<div class="wrap white">
+				<div class="inner_wrap process">
 					<span><cms:text constant="how_purchase"/></span>
 					<cms:module
 						name="articles"
@@ -34,8 +34,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="wrap white location">
-				<div class="inner_wrap">
+			<div class="wrap white">
+				<div class="inner_wrap location">
 					<span><cms:text constant="those_purchasing"/></span>
 					<cms:module
 						name="articles"

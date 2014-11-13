@@ -9,9 +9,7 @@
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
-			<header class="home">
 				<cms:template file="parts/header.xml"/>
-			</header>
 
 			<div class="wrap white">
 				<div class="inner_wrap">
@@ -66,8 +64,8 @@
 				</div>
 			</div>
 
-			<div class="wrap white area">
-				<div class="inner_wrap">
+			<div class="wrap white">
+				<div class="inner_wrap area">
 					<span><cms:text constant="amazing_places_land"/></span>
 					<cms:module
 						name="articles"

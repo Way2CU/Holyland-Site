@@ -2,7 +2,7 @@
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
 	<language name="English" short="en">
-		<constant name="site_title">Site title</constant>
+		<constant name="site_title">Holy Land Gateway LTD</constant>
 
 		<!-- Nav menu -->
 		<constant name="Purchase">Purchase</constant>
@@ -33,5 +33,16 @@
 		<constant name="how_purchase">HOW TO PURCHASE YOUR PARCEL</constant>
 		<constant name="choose_package">CHOOSE A PACKAGE</constant>
 		<constant name="those_purchasing">FOR THOSE PURCHASING THE DELUXE PACKAGE ONLY:</constant>
+
+		<!-- Contact  -->
+		<constant name="email">EMAIL: ALON@HOLYLAND7.COM</constant>
+		<constant name="contact_number">P.O. Box 3232</constant>
+		<constant name="address">P.O. Box 3232 Beit-Yehoshua, 4059100 ISRAEL</constant>
+		<constant name="feel_free_contact">Please feel free to contact us by mail, e-mail or online-chat</constant>
+		<constant name="send">Submit</constant>
+		<constant name="cotnactus">Contact us</constant>
+
+		<!-- Faq -->
+		<constant name="asked_questions">Frequently Asked Questions</constant>
 	</language>
 </document>

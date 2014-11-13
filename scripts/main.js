@@ -1,9 +1,9 @@
 /**
  * Main JavaScript
- * Site Name
+ * Holy Land
  *
  * Copyright (c) 2014. by Way2CU, http://way2cu.com
- * Authors:
+ * Authors: Khalid Sawalhi
  */
 
  var Caracal = Caracal || {};
@@ -12,17 +12,16 @@
  function handle_window_scroll(event) {
  	var scroll = $(this).scrollTop();
 
- 	if($('header nav a.active').length == 0){
-	 	if (scroll > 0 && !Caracal.header.hasClass('wrap.opacity')) {
-	 		Caracal.header.addClass('menu_blue');
+ 	if (scroll > 0 && !Caracal.header.hasClass('detached')) {
+ 		Caracal.header.addClass('detached');
 
-	 	} else if (scroll == 0 && Caracal.header.hasClass('menu_blue')) {
-	 		Caracal.header.removeClass('menu_blue');
-	 	}
+ 	} else if (scroll == 0 && Caracal.header.hasClass('detached')) {
+ 		Caracal.header.removeClass('detached');
  	}
  }
+
  function on_site_load() {
- 	Caracal.header = $('.wrap.opacity');
+ 	Caracal.header = $('header');
  	$(window).scroll(handle_window_scroll);
  }
 
