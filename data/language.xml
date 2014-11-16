@@ -44,5 +44,17 @@
 
 		<!-- Faq -->
 		<constant name="asked_questions">Frequently Asked Questions</constant>
+
+		<!-- mount arbel -->
+		<constant name="mount_arbel">Mount Arbel</constant>
+
+		<constant name="locations_maps">Locations Maps</constant>
+		<constant name="hitsorical_map">Hitsorical Map</constant>
+		<constant name="from_1584">Historical Map From 1584</constant>
+		<constant name="biblical_map">Biblical Map</constant>
+		<constant name="proximity">Sites in proximity to your land</constant>
+		<constant name="maps">Maps</constant>
+		<constant name="magdala">Magdala</constant>
+		<constant name="highlight">more highlight</constant>
 	</language>
 </document>
