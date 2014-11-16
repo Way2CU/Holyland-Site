@@ -69,6 +69,28 @@ header nav#main a {
 	transition: 0.3s all;
 }
 
+header nav > section > nav {
+	display: none;
+	font-size: 1rem;
+}
+
+header nav > section:hover > nav {
+	display: block;
+}
+
+header nav > section {
+	display: inline-block;
+	vertical-align: top;
+	position: relative; 
+}
+
+header nav > section > nav {
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	z-index: 1;
+	background-color: #33516f;
+}
 
 header nav#main a:hover , header nav#main a.active{
 	background-color: #fc4a45;
@@ -107,17 +129,19 @@ header.home div.inner_wrap.center {
 	top: 190px
 }
 
-div.inner_wrap.center > h4 {
-	margin: 0px;
-	font-weight: normal;
-	color: white;
-}
-
-div.inner_wrap.center > h4 + h1 {
+div.inner_wrap.center > h1 {
 	margin: 0px;
 	padding-top: 5px;
 	color: white;
 	font-size: 3.2rem;
+}
+
+div.inner_wrap.center > h1 span {
+	font-size: 1rem;
+	display: block;
+	margin: 0px;
+	font-weight: normal;
+	color: white;
 }
 
 div.inner_wrap.center div.call_to_action {
