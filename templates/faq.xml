@@ -12,10 +12,9 @@
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
 			<cms:template file="parts/header.xml"/>
 			
-			<div id="content">
 					<div class="wrap white">
 						<div class="inner_wrap faq">
-							<span><cms:text constant="asked_questions"/></span>
+							<h1><cms:text constant="asked_questions"/></h1>
 							<div id="faq">
 								<dl>
 									<cms:module
@@ -27,7 +26,7 @@
 							</div>
 						</div>
 					</div>
-			</div>
+
 			<cms:template file="parts/footer.xml"/>
 		</body>
 	</html>

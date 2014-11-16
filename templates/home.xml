@@ -26,6 +26,7 @@
 							name="articles"
 							action="show"
 							text_id="location_text"
+							template="parts/articleh2.xml"
 						/>
 						<span><cms:text constant="get_piece"/></span>
 						<div class="call_to_action">

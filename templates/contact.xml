@@ -13,7 +13,7 @@
 
 			<div class="wrap white">
 				<div class="inner_wrap contact">
-					<span><cms:text constant="cotnactus"/></span>
+					<h1><cms:text constant="cotnactus"/></h1>
 
 					<span><cms:text constant="site_title"/></span>
 					<span><cms:text constant="address"/></span>
