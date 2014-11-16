@@ -177,13 +177,14 @@ div.wrap.video div.inner_wrap iframe.video {
 	border: 5px solid white;
 }
 
-div.wrap.white div.inner_wrap.process > span , div.wrap.white div.inner_wrap.location > span {
+div.wrap.white div.inner_wrap.process > h1 , div.wrap.white div.inner_wrap.location > span {
 	display: block;
 	margin: 0px auto;
 	padding: 30px 0px;
 	color: #7e8b8c;
 	font-size: 3.3rem;
 	text-align: center;
+	font-weight: normal;
 }
 
 
@@ -305,16 +306,17 @@ div.wrap.white div.inner_wrap.location p:before {
 	background-color: #7e8b8c;
 }
 
-div.wrap.white div.inner_wrap.contact > span:nth-of-type(1) {
+div.wrap.white div.inner_wrap.contact > h1:nth-of-type(1) {
 	display: block;
 	margin: 0px auto;
 	padding: 30px 0px;
 	color: #33516f;
 	font-size: 3.3rem;
 	text-align: center;
+	font-weight: normal;
 }
 
-div.wrap.white div.inner_wrap.contact > span:nth-of-type(2), div.wrap.white div.inner_wrap.contact > span:nth-of-type(3) {
+div.wrap.white div.inner_wrap.contact > span:nth-of-type(1), div.wrap.white div.inner_wrap.contact > span:nth-of-type(2) {
 	display: block;
 	margin: 0px auto;
 	color: #33516f;
@@ -420,13 +422,14 @@ div.wrap.white div.inner_wrap.contact div.form_container form div.controls butto
 	border-color: #cda349;
 }
 
-div.wrap.white div.inner_wrap.faq > span {
+div.wrap.white div.inner_wrap.faq > h1 {
 	display: block;
 	margin: 0px auto;
 	padding: 30px 0px;
 	color: #7e8b8c;
 	font-size: 3.3rem;
 	text-align: center;
+	font-weight: normal;
 }
 
 div#faq dl {
@@ -464,13 +467,219 @@ div#faq dl dt:after {
 	top: 0px;
 	content: ' ';
 	border-radius: 2px;
-	background-image: url(../images/icon-expand.svg);
+	background-image: url(../images/faq-icons-sprite.svg);
 	background-size: 20px 20px;
+	background-position: 0px 0px;
+	background-size: 100% auto;
 	background-repeat: no-repeat;
-	background-position: center center;
 	transition: all 0.3s;
 }
 
 div#faq dl dt.expanded:after {
-	background-image: url(../images/icon-expanded.svg);
+	background-position: 0px -21px;
+}
+
+
+/*the area list */
+
+div.wrap.white div.inner_wrap.mount_arbel > h1 , div.wrap.white div.inner_wrap.magdala > h1 , div.wrap.white div.inner_wrap.the_land > h1 , div.wrap.white div.inner_wrap.maps > h1 {
+	position: absolute;
+	top: 170px;
+	right: calc(50% - 600px);
+	color: white;
+	font-weight: normal;
+	font-size: 3rem;
+	background-color: rgba(51, 81, 111, 0.6);
+	padding: 5px;
+	width: 60%;
+}
+
+div.wrap.white div.inner_wrap.mount_arbel article {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 530px;
+	padding: 0px 30px;
+	color: #7e8b8c;
+	text-align: left;
+	padding-bottom: 50px;
+}
+
+div.wrap.white div.inner_wrap.mount_arbel article:nth-of-type(1) {
+	padding-left: 0px;
+}
+
+div.wrap.white div.inner_wrap.mount_arbel article:nth-of-type(2) {
+	background-image: url(../images/photo-arbel.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: auto 400px;
+	padding-bottom: 410px
+}
+
+div.wrap.white div.inner_wrap.mount_arbel article p strong {
+	color: #33516f;
+}
+
+div.wrap.white div.inner_wrap.magdala article {
+	display: block;
+	background-image: 
+	url(../images/magdala-photo-top.jpg);
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: 570px auto;
+}
+
+div.wrap.white div.inner_wrap.magdala article p {
+	color: #7e8b8c;
+	text-align: left;
+	padding-bottom: 390px;
+	max-width: 580px;
+	background-repeat: no-repeat;
+	background-image: url(../images/magdala1.jpg);
+	background-position: bottom center;
+	background-size: 570px auto;
+}
+
+div.wrap.white div.inner_wrap.magdala article p strong {
+	display: block;
+	font-size:1.3rem;
+	padding-bottom: 10px;
+	color: #33516f;
+}
+
+div.wrap.white div.inner_wrap.magdala iframe.video {
+	display: block;
+	margin:0px auto;
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
+
+div.wrap.white div.inner_wrap.maps > span:nth-of-type(1) {
+	display: block;
+	margin: 0px auto;
+	padding: 30px 0px;
+	color: #33516f;
+	font-size: 3.3rem;
+	text-align: center;
+	font-weight: normal;
+
+	background-image: url(../images/fullmaplocation.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: auto 1207px;
+	padding-bottom: 1260px;
+}
+
+div.wrap.white div.inner_wrap.maps  h1 + span {
+	display: block;
+	margin: 0px auto;
+	margin-top: 30px;
+	color: #33516f;
+	font-size: 3.3rem;
+	text-align: center;
+	font-weight: normal;
+
+	background-image: url(../images/closeup.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: auto 853px;
+	padding-top: 920px;
+}
+
+div.wrap.white div.inner_wrap.maps span + span {
+	display: block;
+	margin: 0px auto;
+	color: #33516f;
+	font-size: 1.3rem;
+	text-align: center;
+	font-weight: normal;
+
+	background-image: url(../images/historical-map-from.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: auto 687px;
+	padding-bottom: 720px;	
+}
+
+div.wrap.white div.inner_wrap.maps span:last-child {
+	margin: 70px 0px;
+	font-size: 3.3rem;
+	background-image: url(../images/magdala-photo-top.jpg);
+	background-size: auto 469px;
+	padding-bottom: 500px;
+}
+
+div.wrap.white div.inner_wrap.the_land article  p {
+	color: #7e8b8c;
+	text-align: left;
+	max-width: 580px;
+	background-repeat: no-repeat;	
+}
+
+div.wrap.white div.inner_wrap.the_land article {
+	display: block;
+	background-repeat: no-repeat;
+	background-size: auto 361px;
+	padding-bottom: 100px;
+	margin: 70px 0px;
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-child(even) {
+	padding-right: 610px;
+	background-position: right top;
+
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-child(odd) {
+	padding-left: 610px;
+	background-position: left top;
+} 
+
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(1) {
+	background-image: url(../images/ginosar.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(2) {
+	background-image: url(../images/the-sea-of-galilee.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(3) {
+	background-image: url(../images/bethsaida.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(4) {
+	background-image: url(../images/chorazim.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(5) {
+	background-image: url(../images/loaves-and-fishes.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(6) {
+	background-image: url(../images/mount of beatitudes.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(7) {
+	background-image: url(../images/cove-of-the-sower.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(8) {
+	background-image: url(../images/capernaum.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(9) {
+	background-image: url(../images/land-of-the-gadarenes.jpg);
+	background-size: 600px auto;
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(10) {
+	background-image: url(../images/jordan-river.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article  p strong {
+	display: block;
+	font-size:1.3rem;
+	padding-bottom: 10px;
+	color: #33516f;
 }
