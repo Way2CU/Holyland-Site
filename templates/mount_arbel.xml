@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/language.dtd">
+<document>
+	<cms:var name="_DOCTYPE"/>
+	<html lang="$language" cms:eval="lang">
+		<head>
+			<title><cms:text constant="site_title"/></title>
+			<cms:module name="head_tag" action="print_tag"/>
+		</head>
+
+		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
+			<cms:template file="parts/header.xml"/>
+
+			<div class="wrap white">
+				<div class="inner_wrap mount_arbel">
+					<h1><cms:text constant="mount_arbel"/></h1>
+					<img
+						src="_BASEURL.'/site/images/header-background-mount-arbel.jpg'"
+						alt="mount-arbel"
+						cms:eval="src"
+					/>
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="mount_arbel"
+						tempalte="parts/mount_arbel_article.xml"
+					/>
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="mount_arbel_right"
+						tempalte="parts/mount_arbel_article.xml"
+					/>
+				</div>
+			</div>
+
+			<cms:template file="parts/footer.xml"/>
+		</body>
+	</html>
+</document>
