@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/language.dtd">
+<document>
+	<cms:var name="_DOCTYPE"/>
+	<html lang="$language" cms:eval="lang">
+		<head>
+			<title><cms:text constant="site_title"/></title>
+			<cms:script src="_BASEURL.'/site/scripts/faq.js'" cms:eval="src"/>
+			<cms:module name="head_tag" action="print_tag"/>
+		</head>
+
+		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
+			<cms:template file="parts/header.xml"/>
+			
+					<div class="wrap white">
+						<div class="inner_wrap maps">
+							<h1><cms:text constant="maps"/></h1>
+							<img
+								src="_BASEURL.'/site/images/maps-page.jpg'"
+								alt="mount-arbel"
+								cms:eval="src"
+							/>
+							<span><cms:text constant="locations_maps"/></span>
+							<span><cms:text constant="hitsorical_map"/></span>
+							<span><cms:text constant="from_1584"/></span>
+							<span><cms:text constant="biblical_map"/></span>
+						</div>
+					</div>
+
+			<cms:template file="parts/footer.xml"/>
+		</body>
+	</html>
+</document>
