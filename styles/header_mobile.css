@@ -1,0 +1,129 @@
+/**
+ * Mobile Header Style Sheet
+ * Holyland
+ *
+ * Copyright (c) 2014. by Way2CU, http://way2cu.com
+ * Author: Khalid Sawalhi
+ */
+
+a.cart {
+	position: absolute;
+	top: 0.5em;
+	right: 10px;
+	background-color: white;
+}
+
+img.logo {
+	display: block;
+	margin:0px auto;
+}
+
+
+.mobile_title {
+	background-color: #33485D;
+	position: fixed;
+}
+
+.mobile_title a.menu {
+	display: block;
+	height: 40px;
+	width: 39px;
+	background-image: url(../../system/images/mobile_menu.svg);
+	background-repeat: no-repeat;
+	background-position: -10px center;
+	background-size: 40px 40px;
+	position: absolute;
+	left: 209px;
+	top: -50px;
+
+	transition: 0.3s all;
+}
+
+.mobile_title.menu_visible a.menu {
+	background-position: -30px center;
+}
+
+.mobile_menu {
+
+	background-color: white;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.mobile_menu div {
+
+	padding: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.mobile_menu div span {
+	display: block;
+}
+
+header div.inner_wrap.center {
+	background-image: url(../images/mobile-header-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: auto 100%;}
+
+div.inner_wrap.center > h1 {
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+	padding: 0px 20px;
+	padding-top: 75px;
+	color: white;
+	font-size: 1.2rem;
+}
+
+div.inner_wrap.center > h1 span {
+	font-size: 1rem;
+	display: block;
+	margin: 0px;
+	font-weight: normal;
+	color: white;
+}
+
+div.inner_wrap.center div.call_to_action {
+	padding-top: 30px;
+}
+
+div.inner_wrap.center div.call_to_action a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding: 10px 30px;
+	border: 1px solid #fc4a45;
+	background-color: #fc4a45;
+	font-size: 1.3rem;
+	margin: 10px auto;
+	border-radius: 5px;
+	width: 160px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.50);
+}
+
+div.inner_wrap.center div.call_to_action a:nth-of-type(2) {
+	padding: 10px 30px;
+	background-color: #fac825;
+	border-color: #fac825;
+}
+
+div.inner_wrap.center div.call_to_action + span {
+	display: block;
+	padding-top: 30px;
+	color: white;
+}
+
+header div.inner_wrap.center div.call_to_action + span {
+	display: block;
+	text-align: center;
+	font-size: 1rem;
+}
+
+div.inner_wrap.center div.call_to_action + span + span {
+	display: block;
+	font-size: 1.1rem;
+	text-align: center;
+	color: #7e8b8c;
+}
