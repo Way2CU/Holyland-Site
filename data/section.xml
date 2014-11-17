@@ -19,4 +19,16 @@
 	<section name="registry-lookup">
 		<language name="all" file="registry_lookup.xml" />
 	</section>
+	<section name="mount_arbel">
+		<language name="all" file="mount_arbel.xml" />
+	</section>
+	<section name="magdala">
+		<language name="all" file="magdala.xml" />
+	</section>
+	<section name="locations">
+		<language name="all" file="locations.xml" />
+	</section>
+	<section name="the_land">
+		<language name="all" file="the_land.xml" />
+	</section>	
 </document>

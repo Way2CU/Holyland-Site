@@ -47,8 +47,10 @@
 		</div>
 		<cms:if section="home">
 			<div class="inner_wrap center">
-				<h4><cms:text constant="purchase_piece"/></h4>
-				<h1><cms:text constant="in_holyland"/></h1>
+				<h1>
+					<span><cms:text constant="purchase_piece"/></span>
+					<cms:text constant="in_holyland"/>
+				</h1>
 				<div class="call_to_action">
 					<a
 						 href=""

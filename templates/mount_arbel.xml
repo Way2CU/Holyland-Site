@@ -12,30 +12,28 @@
 			<cms:template file="parts/header.xml"/>
 
 			<div class="wrap white">
-				<div class="inner_wrap contact">
-					<h1><cms:text constant="cotnactus"/></h1>
-
-					<span><cms:text constant="site_title"/></span>
-					<span><cms:text constant="address"/></span>
-
-					<a
-						 href=""
-						 eval="href" 
-						 class=""
-					>
-						<cms:text constant="email"/>
-					</a>
-
-					<div class="form_container">
-						<span><cms:text constant="feel_free_contact"/></span>
-							<cms:module 
-								name="contact_form" 
-								action="show" 
-								text_id="contact_form"
-								/>
-					</div>
+				<div class="inner_wrap mount_arbel">
+					<h1><cms:text constant="mount_arbel"/></h1>
+					<img
+						src="_BASEURL.'/site/images/header-background-mount-arbel.jpg'"
+						alt="mount-arbel"
+						cms:eval="src"
+					/>
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="mount_arbel"
+						tempalte="parts/mount_arbel_article.xml"
+					/>
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="mount_arbel_right"
+						tempalte="parts/mount_arbel_article.xml"
+					/>
 				</div>
 			</div>
+
 			<cms:template file="parts/footer.xml"/>
 		</body>
 	</html>

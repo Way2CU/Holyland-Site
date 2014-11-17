@@ -13,17 +13,17 @@
 			<cms:template file="parts/header.xml"/>
 			
 					<div class="wrap white">
-						<div class="inner_wrap faq">
-							<h1><cms:text constant="asked_questions"/></h1>
-							<div id="faq">
-								<dl>
-									<cms:module
-										name="faq"
-										action="show_list"
-										template="parts/faq_template.xml"
-									/>
-								</dl>
-							</div>
+						<div class="inner_wrap maps">
+							<h1><cms:text constant="maps"/></h1>
+							<img
+								src="_BASEURL.'/site/images/maps-page.jpg'"
+								alt="mount-arbel"
+								cms:eval="src"
+							/>
+							<span><cms:text constant="locations_maps"/></span>
+							<span><cms:text constant="hitsorical_map"/></span>
+							<span><cms:text constant="from_1584"/></span>
+							<span><cms:text constant="biblical_map"/></span>
 						</div>
 					</div>
 

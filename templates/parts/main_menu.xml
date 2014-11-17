@@ -10,14 +10,55 @@
 		>
 		<cms:text constant="Purchase"/>
 	</a>
-	<a
-		class="$section == 'area' ? 'active' : false"
-		href="url_Make('', 'area')"
-		cms:eval="href"
-		cms:optional="class"
-		>
-		<cms:text constant="The_Area"/>
-	</a>
+
+	<section>
+		<a
+			class="$section == '' ? 'active' : false"
+			href="url_Make('', '')"
+			cms:eval="href"
+			cms:optional="class"
+			>
+			<cms:text constant="The_Area"/>
+		</a>
+		<nav>
+			<a
+				class="$section == 'the_area' ? 'active' : false"
+				href="url_Make('', 'mount_arbel')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="mount_arbel"/>
+			</a>
+
+			<a
+				class="$section == 'the_area' ? 'active' : false"
+				href="url_Make('', 'magdala')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="magdala"/>
+			</a>
+
+			<a
+				class="$section == 'the_area' ? 'active' : false"
+				href="url_Make('', 'locations')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="maps"/>
+			</a>
+
+			<a
+				class="$section == 'the_area' ? 'active' : false"
+				href="url_Make('', 'the_land')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="highlight"/>
+			</a>
+
+		</nav>
+	</section>
 	<a
 		class="$section == 'contact' ? 'active' : false"
 		href="url_Make('', 'contact')"
@@ -26,7 +67,6 @@
 		>
 		<cms:text constant="contact"/>
 	</a>
-
 	<a
 		class="$section == 'faq' ? 'active' : false"
 		href="url_Make('', 'faq')"

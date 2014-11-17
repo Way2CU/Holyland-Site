@@ -3,8 +3,10 @@
 <document>
 	<footer>
 		<div class="inner_wrap center">
-			<h4><cms:text constant="purchase_piece"/></h4>
-			<h1><cms:text constant="in_holyland"/></h1>
+			<span>
+				<span><cms:text constant="purchase_piece"/></span>
+				<cms:text constant="in_holyland"/>
+			</span>
 			<div class="call_to_action">
 				<a
 					 href=""

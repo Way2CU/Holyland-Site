@@ -13,17 +13,19 @@
 			<cms:template file="parts/header.xml"/>
 			
 					<div class="wrap white">
-						<div class="inner_wrap faq">
-							<h1><cms:text constant="asked_questions"/></h1>
-							<div id="faq">
-								<dl>
-									<cms:module
-										name="faq"
-										action="show_list"
-										template="parts/faq_template.xml"
-									/>
-								</dl>
-							</div>
+						<div class="inner_wrap the_land">
+							<h1><cms:text constant="proximity"/></h1>
+							<img
+								src="_BASEURL.'/site/images/sites-in-proximity.jpg'"
+								alt="mount-arbel"
+								cms:eval="src"
+							/>
+							<cms:module
+								name="articles"
+								action="show_list"
+								group="the_land"
+								template="parts/process.xml"
+							/>
 						</div>
 					</div>
 
