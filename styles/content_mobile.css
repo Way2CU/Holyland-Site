@@ -5,3 +5,565 @@
  * Copyright (c) 2014. by Way2CU, http://way2cu.com
  * Author: Khalid Sawalhi
  */
+
+ 
+  div.inner_wrap {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	position: relative;
+  }
+
+  div.wrap.white {
+  	background-color: white;
+  	overflow: hidden;
+  }
+
+ div.wrap div.pricing_container {
+ 	padding-bottom: 50px;
+ 	text-align: center;
+ }
+
+ div.wrap div.pricing_container article {
+ 	display: block;
+ 	margin: 30px auto;
+ 	width: 90%;
+ 	background-color: white;
+	min-height: 655px;
+ 	border: 1px solid #bcc2c6;
+ 	position: relative;
+ }
+
+ div.wrap div.pricing_container article h2 {
+ 	padding-top: 200px;
+ }
+
+ div.wrap div.pricing_container article:before {
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 50%;
+ 	margin-left: -129px;
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+ 	background-size: auto 214px;
+ 	width: 259px;
+ 	height: 214px;
+ 	content: ''; 
+ }
+
+ div.wrap div.pricing_container article:nth-of-type(1):before {
+ 	background-image: url(../images/standard-gift-package.png);
+ }
+
+ div.wrap div.pricing_container article:nth-of-type(2):before {
+ 	background-image: url(../images/premium-gift-package.png);
+ }
+
+ div.wrap div.pricing_container article:nth-of-type(3):before {
+ 	background-image: url(../images/deluxe-gift-package.png);
+ }
+
+ div.wrap div.pricing_container article:nth-of-type(1) h2 {
+ 	color: #7e8b8c;
+ }
+
+ div.wrap div.pricing_container article:nth-of-type(2) h2 {
+ 	color: #33516f;
+ }
+
+ div.wrap div.pricing_container article:nth-of-type(3) h2 {
+ 	color: #cda349;
+ }
+
+ div.wrap div.pricing_container article a {
+ 	display: block;
+ 	max-width: 200px;
+ 	margin: 0px auto;
+ 	text-decoration: none;
+ 	color: white;
+ 	background-color: #375d4c;
+ 	padding: 10px 20px;
+ 	border: 1px solid #375d4c;
+ 	border-radius: 5px;
+ 	font-size: 1.5rem;
+ }
+
+ div.wrap div.pricing_container article p {
+ 	color: #7e8b8c;
+ }
+
+ div.wrap div.pricing_container article:nth-of-type(2) a {
+ 	background-color: #33516f;
+ 	border-color: #33516f;
+ }
+
+ div.wrap div.pricing_container article:nth-of-type(3) a {
+ 	background-color: #cda349;
+ 	border-color: #cda349;	
+ }
+
+
+ div.wrap.white div.location_container {
+ 	background-image: url(../images/tree.jpg);
+ 	background-repeat: no-repeat;
+ 	background-position: top center;
+ 	background-size: auto 500px;
+ 	min-height: 500px;
+ 	padding-top: 530px;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ }
+
+ div.wrap.white div.location_container article {
+ 	display: block;
+ 	text-align: center;
+ 	margin: 0px auto;
+ 	padding-bottom: 20px;
+ 	color: #7e8b8c;
+ }
+
+ div.wrap.white div.location_container article + span {
+ 	display: block;
+ 	text-align: center;
+ 	margin: 0px auto;
+ 	color: #fc4a45;
+ 	font-size: 1.3rem;
+ }
+
+ div.wrap.white div.location_container div.call_to_action {
+ 	padding-top: 20px;
+ }
+
+ div.wrap.white div.location_container div.call_to_action a {
+ 	display: block;
+ 	margin: 20px auto;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	color: white;
+ 	padding: 10px 35px;
+ 	border: 1px solid #fc4a45;
+ 	background-color: #fc4a45;
+ 	font-size: 1.5rem;
+ 	border-radius: 5px;
+ 	width: 200px;
+ }
+
+ div.wrap.white div.location_container div.call_to_action a:nth-of-type(2) {
+ 	background-image: url(../images/icon-arrow.svg);
+ 	background-repeat: no-repeat;
+ 	background-position: 0.3em center;
+ 	background-size: auto 38px;
+ 	padding: 13px 20px 13px 50px;
+ 	font-size: 1.3rem;
+ 	text-align: left;
+ 	background-color: white;
+ 	border-color: #bcc2c6;
+ 	color: #7e8b8c;
+ }
+
+ div.wrap.video {
+ 	background-color: #6398b0;
+ 	padding-bottom: 50px;
+ }
+
+ div.wrap.video div.inner_wrap > span {
+ 	display: block;
+ 	text-align: center;
+ 	font-size: 1.8rem;
+ 	color: white;
+ 	margin: 0px auto;
+ 	padding: 50px 0px;
+ }
+
+
+ div.wrap.video div.inner_wrap iframe.video {
+ 	display: block;
+ 	width: 90%;
+ 	height: 230px;
+ 	margin: 0px auto;
+ 	border: 5px solid white;
+ }
+
+ div.wrap.white div.inner_wrap.process {
+ 	text-align: center;
+ }
+
+ div.wrap.white div.inner_wrap.process > h1 , div.wrap.white div.inner_wrap.location > span {
+ 	display: block;
+ 	margin: 0px auto;
+ 	padding: 30px 0px;
+ 	color: #7e8b8c;
+ 	font-size: 1.9rem;
+ 	text-align: center;
+ 	font-weight: normal;
+ }
+
+
+ div.wrap.white div.inner_wrap.area > span {
+ 	display: block;
+ 	margin: 0px auto;
+ 	padding: 30px 10px;
+ 	color: #7e8b8c;
+ 	font-size: 1.8rem;
+ 	text-align: center;	
+ }
+
+ div.wrap.white div.inner_wrap.area article {
+ 	display: block;
+ 	background-image: url(../images/arbel-village.jpg);
+ 	background-position: top center;
+ 	background-repeat: no-repeat;
+ 	background-size: 210px auto;
+ 	margin: 30px 0px;
+ 	padding: 180px 10px 0px 10px;
+ 	text-align: center;
+ }
+
+ div.wrap.white div.inner_wrap.area article:nth-of-type(2) {
+ 	background-image: url(../images/bethsaida.jpg);	
+ }
+
+ div.wrap.white div.inner_wrap.area article:nth-of-type(3) {
+ 	background-image: url(../images/mount-of-beatitudes.jpg);	
+ }
+
+ div.wrap.white div.inner_wrap.area article:nth-of-type(4) {
+ 	background-image: url(../images/sea-of-galilee.jpg);	
+ }
+
+ div.wrap.white div.inner_wrap.area article:nth-of-type(5) {
+ 	background-image: url(../images/chorazin.jpg);	
+ }
+
+ div.wrap.white div.inner_wrap.area article:nth-of-type(6) {
+ 	background-image: url(../images/ginosar.jpg);	
+ }
+
+ div.wrap.white div.inner_wrap.area article h3 {
+ 	margin: 0px;
+ 	padding-bottom: 10px;
+ 	font-size: 1.2rem;
+ 	color:#33516f;
+ }
+ div.wrap.white div.inner_wrap.area article p {
+ 	display: block;
+ 	margin: 0px auto;
+ 	color: #7e8b8c;
+ }
+
+/*puchase page*/
+
+div.wrap.white div.inner_wrap.process h1 {
+  padding-top:70px;
+}
+
+div.wrap.white div.inner_wrap.process article {
+  display: block;
+  margin:0px auto;
+  text-align: center;
+  background-image: url(../images/seal.jpg);
+  padding: 170px 30px 10px 30px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 151px;
+  position: relative;
+ }
+
+div.wrap.white div.inner_wrap.process article:nth-of-type(2) {
+  background-image: url(../images/id.jpg);
+ }
+
+div.wrap.white div.inner_wrap.process article:nth-of-type(3) {
+  background-image: url(../images/certificate.jpg);
+ }
+
+div.wrap.white div.inner_wrap.process article p {
+  max-width: 260px;
+ }
+
+div.wrap.grey {
+  background-color: #ebeff0;
+ }
+
+div.wrap.grey div.inner_wrap > span {
+  display: block;
+  margin: 0px auto;
+  padding: 30px 0px;
+  color: #7e8b8c;
+  font-size: 1.7rem;
+  text-align: center;
+ }
+
+div.wrap.white div.inner_wrap.location article {
+  padding-left: 20px;
+  padding-bottom: 250px;
+  margin-bottom: 50px;
+  background-image: url(../images/map.jpg);
+  background-repeat: no-repeat;
+  background-size: 90% 240px;
+  background-position: bottom center;
+ }
+
+div.wrap.white div.inner_wrap.location p {
+  color: #7e8b8c;
+  position: relative;
+ }
+
+div.wrap.white div.inner_wrap.location p:before {
+  content: '';
+  position: absolute;
+  left: -40px;
+  top: 5px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #7e8b8c;
+ }
+
+/*contact us page */
+
+
+div.wrap.white div.inner_wrap.contact > h1:nth-of-type(1) {
+  display: block;
+  margin: 0px auto;
+  padding: 80px 0px 20px 0px;
+  color: #33516f;
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: normal;
+}
+
+div.wrap.white div.inner_wrap.contact > span:nth-of-type(1), div.wrap.white div.inner_wrap.contact > span:nth-of-type(2) {
+  display: block;
+  margin: 0px auto;
+  color: #33516f;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+div.wrap.white div.inner_wrap.contact a:nth-of-type(1) {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: #fc4a45;
+  border: 1px solid #fc4a45;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+  margin: 30px auto;
+  transition: 0.3s all;
+  width: 90%;
+}
+
+div.wrap.white div.inner_wrap.contact a:nth-of-type(1):hover {
+  background-color: #cda349;
+  border-color: #cda349;
+}
+
+div.wrap.white div.inner_wrap.contact div.form_container {
+  margin-bottom: 30px;
+  background-color: #ebeff0;
+
+}
+
+div.wrap.white div.inner_wrap.contact div.form_container > span:nth-of-type(1) {
+  display: block;
+  margin: 0px auto;
+  color: #33516f;
+  padding: 10px 0px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+div.wrap.white div.inner_wrap.contact div.form_container form {
+  padding: 20px 0px 20px 5px;
+}
+
+div.wrap.white div.inner_wrap.contact div.form_container form  label {
+  display: block;
+  margin: 0px auto;
+  color: #33516f;
+}
+
+div.wrap.white div.inner_wrap.contact div.form_container form  label span {
+  display: block;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+div.wrap.white div.inner_wrap.contact div.form_container form  label input {
+  display: block;
+  margin: 0px auto;
+  font-size: 1.3rem;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+div.wrap.white div.inner_wrap.contact div.form_container form  label:last-child {
+  display: block;
+
+}
+
+div.wrap.white div.inner_wrap.contact div.form_container form  label textarea {
+  display: block;
+  border: 1px solid black;
+  margin: 20px auto 30px auto;
+}
+
+div.wrap.white div.inner_wrap.contact div.form_container form div.controls {
+  display: block;
+}
+
+div.wrap.white div.inner_wrap.contact div.form_container form div.controls button.submit {
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+  padding: 5px;
+  background-color: #fc4a45;
+  border: 1px solid #fc4a45;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s all;
+  width: 130px;
+  cursor: pointer;
+}
+
+div.wrap.white div.inner_wrap.contact div.form_container form div.controls button.submit:hover {
+  background-color: #cda349;
+  border-color: #cda349;
+}
+
+/*Faq page*/
+
+div.wrap.white div.inner_wrap.faq > h1 {
+  display: block;
+  margin: 0px auto;
+  padding: 30px 0px;
+  color: #7e8b8c;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: normal;
+}
+
+div#faq dl {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+div#faq dl dt {
+  display: block;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.1rem;
+  padding-bottom: 20px;
+  border-top: 1px solid #bcc2c6;
+  position: relative;
+}
+
+div#faq dl dt:nth-of-type(1) {
+  border-top: 0px;
+}
+
+div#faq dl dd {
+  margin: 0px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+}
+
+div#faq dl dt:after {
+  width: 21px;
+  height: 21px;
+  top: 1.5em;
+  content: ' ';
+  background-image: url(../images/faq-icons-sprite.svg);
+  background-position: 0px 0px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  transition: all 0.3s;
+  position: absolute;
+  left: 5px;
+}
+
+div#faq dl dt.expanded:after {
+  background-position: 0px -21px;
+}
+
+}
+/*maps page*/
+
+  h1.head {
+  position: absolute;
+  top: 70px;
+  background-color: rgba(51, 81, 111, 0.6);
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+div.wrap.white div.inner_wrap.maps h1 + img {
+  width: 100%;
+}
+div.wrap.white div.inner_wrap.maps > span:nth-of-type(1) {
+  display: block;
+  margin: 0px auto;
+  padding: 30px 0px;
+  color: #33516f;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: normal;
+  background-image: url(../images/fullmaplocation.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100% auto;
+  padding-bottom: 460px;
+}
+
+div.wrap.white div.inner_wrap.maps span:nth-of-type(2) {
+  display: block;
+  margin: 0px auto;
+  margin-top: 30px;
+  color: #33516f;
+  font-size: 3.3rem;
+  text-align: center;
+  font-weight: normal;
+
+  background-image: url(../images/closeup.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 90% auto;
+  padding-top: 310px;
+}
+
+div.wrap.white div.inner_wrap.maps span:nth-of-type(3) {
+  display: block;
+  margin: 0px auto;
+  color: #33516f;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: normal;
+
+  background-image: url(../images/historical-map-from.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 90% auto;
+  padding-bottom: 310px; 
+}
+
+div.wrap.white div.inner_wrap.maps span:nth-of-type(4) {
+  display: block;
+  margin: 20px auto;
+  color: #33516f;
+  text-align: center;
+  font-size: 2rem;
+  background-image: url(../images/magdala-photo-top.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 90% auto;
+  padding-bottom: 310px; 
+}
