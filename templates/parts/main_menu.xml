@@ -11,8 +11,8 @@
 		<cms:text constant="Purchase"/>
 	</a>
 	<a
-		class="$section == 'the_Area' ? 'active' : false"
-		href="url_Make('', 'the_Area')"
+		class="$section == 'area' ? 'active' : false"
+		href="url_Make('', 'area')"
 		cms:eval="href"
 		cms:optional="class"
 		>
@@ -36,8 +36,8 @@
 		<cms:text constant="FAQ"/>
 	</a>
 	<a
-		class="$section == 'registry_lookup' ? 'active' : false"
-		href="url_Make('', 'registry_lookup')"
+		class="$section == 'registry-lookup' ? 'active' : false"
+		href="url_Make('', 'registry-lookup')"
 		cms:eval="href"
 		cms:optional="class"
 		>

@@ -7,8 +7,8 @@
 	<section name="purchase">
 		<language name="all" file="purchase.xml" />
 	</section>
-	<section name="the_Area">
-		<language name="all" file="the_Area.xml" />
+	<section name="area">
+		<language name="all" file="the_area.xml" />
 	</section>
 	<section name="contact">
 		<language name="all" file="contact.xml" />
@@ -16,7 +16,7 @@
 	<section name="faq">
 		<language name="all" file="faq.xml" />
 	</section>
-	<section name="registry_lookup">
+	<section name="registry-lookup">
 		<language name="all" file="registry_lookup.xml" />
 	</section>
 </document>
