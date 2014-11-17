@@ -51,10 +51,10 @@ header div.inner_wrap a.logo {
 
 header nav#main {
 	position: absolute;
-	width: 700px;
+	width: 600px;
 	left: 50%;
 	top: 20px;
-	margin-left: -350px;
+	margin-left: -300px;
 }
 
 header nav#main a {
@@ -72,6 +72,12 @@ header nav#main a {
 header nav > section > nav {
 	display: none;
 	font-size: 1rem;
+	transition: 0.3s all;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	z-index: 1;
+	background-color: #33516f;
 }
 
 header nav > section:hover > nav {
@@ -84,14 +90,6 @@ header nav > section {
 	position: relative; 
 }
 
-header nav > section > nav {
-	position: absolute;
-	top: 100%;
-	left: 0px;
-	z-index: 1;
-	background-color: #33516f;
-}
-
 header nav#main a:hover , header nav#main a.active{
 	background-color: #fc4a45;
 }
@@ -102,7 +100,7 @@ header div.inner_wrap a.cart {
 	background-color: #fc4a45;
 	position: absolute;
 	top: 20px;
-	right: 0px;
+	right: 10px;
 	text-align: center;
 	text-decoration: none;
 	color: white;
@@ -115,7 +113,7 @@ header div.inner_wrap a.cart:nth-of-type(2) {
 	height: 33px;
 	padding: 0px;
 	background-color: white;
-	right: 130px;
+	right: 140px;
 }
 
 header div.inner_wrap a.cart:hover {
@@ -183,7 +181,17 @@ div.inner_wrap.center div.call_to_action + span + span {
 	display: block;
 	position: absolute;
 	bottom: 0px;
-	font-size: 3.3rem;
+	font-size: 2.8rem;
 	text-align: center;
 	color: #7e8b8c;
+	left: 50%;
+	width: 830px;
+	margin-left: -415px;
+}
+
+@media (max-width: 1200px) {
+	header div.inner_wrap a.logo img {
+		padding-left: 20px;
+		width: 160px;
+	}
 }
