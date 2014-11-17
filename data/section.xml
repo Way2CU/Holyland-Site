@@ -8,7 +8,13 @@
 		<language name="all" file="purchase.xml" />
 	</section>
 	<section name="area">
-		<language name="all" file="the_area.xml" />
+		<language name="all">
+			<action name="_default" file="the_area.xml"/>
+			<action name="mount-arbel" file="mount_arbel.xml"/>
+			<action name="magdala" file="magdala.xml"/>
+			<action name="locations" file="locations.xml"/>
+			<action name="land" file="the_land.xml"/>
+		</language>
 	</section>
 	<section name="contact">
 		<language name="all" file="contact.xml" />
@@ -19,16 +25,4 @@
 	<section name="registry-lookup">
 		<language name="all" file="registry_lookup.xml" />
 	</section>
-	<section name="mount_arbel">
-		<language name="all" file="mount_arbel.xml" />
-	</section>
-	<section name="magdala">
-		<language name="all" file="magdala.xml" />
-	</section>
-	<section name="locations">
-		<language name="all" file="locations.xml" />
-	</section>
-	<section name="the_land">
-		<language name="all" file="the_land.xml" />
-	</section>	
 </document>
