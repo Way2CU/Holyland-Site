@@ -11,57 +11,49 @@
 		<cms:text constant="Purchase"/>
 	</a>
 
-
 	<section>
 		<a
-			class="$section == '' ? 'active' : false"
-			href="url_Make('', '')"
-			cms:eval="href"
+			class="$section == 'area' ? 'active' : false"
+			href="javascript:void(0);"
 			cms:optional="class"
 			>
 			<cms:text constant="The_Area"/>
 		</a>
-	        <nav>
-	        	<a
-	        		class="$section == 'the_area' ? 'active' : false"
-	        		href="url_Make('', 'mount_arbel')"
-	        		cms:eval="href"
-	        		cms:optional="class"
-	        		>
-	        		<cms:text constant="mount_arbel"/>
-	        	</a>
-
-	        	<a
-	        		class="$section == 'the_area' ? 'active' : false"
-	        		href="url_Make('', 'magdala')"
-	        		cms:eval="href"
-	        		cms:optional="class"
-	        		>
-	        		<cms:text constant="magdala"/>
-	        	</a>
-
-	        	<a
-	        		class="$section == 'the_area' ? 'active' : false"
-	        		href="url_Make('', 'locations')"
-	        		cms:eval="href"
-	        		cms:optional="class"
-	        		>
-	        		<cms:text constant="maps"/>
-	        	</a>
-
-	        	<a
-	        		class="$section == 'the_area' ? 'active' : false"
-	        		href="url_Make('', 'the_land')"
-	        		cms:eval="href"
-	        		cms:optional="class"
-	        		>
-	        		<cms:text constant="highlight"/>
-	        	</a>
-
-	        </nav>
+		<nav>
+			<a
+				class="($section == 'area' and $action == 'mount-arbel') ? 'active' : false"
+				href="url_Make('mount-arbel', 'area')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="mount_arbel"/>
+			</a>
+			<a
+				class="($section == 'area' and $action == 'magdala') ? 'active' : false"
+				href="url_Make('magdala', 'area')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="magdala"/>
+			</a>
+			<a
+				class="($section == 'area' and $action == 'locations') ? 'active' : false"
+				href="url_Make('locations', 'area')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="maps"/>
+			</a>
+			<a
+				class="($section == 'area' and $action == 'land') ? 'active' : false"
+				href="url_Make('land', 'area')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="highlight"/>
+			</a>
+		</nav>
 	</section>
-
-
 	<a
 		class="$section == 'contact' ? 'active' : false"
 		href="url_Make('', 'contact')"
@@ -70,7 +62,6 @@
 		>
 		<cms:text constant="contact"/>
 	</a>
-
 	<a
 		class="$section == 'faq' ? 'active' : false"
 		href="url_Make('', 'faq')"
@@ -80,8 +71,8 @@
 		<cms:text constant="FAQ"/>
 	</a>
 	<a
-		class="$section == 'registry_lookup' ? 'active' : false"
-		href="url_Make('', 'registry_lookup')"
+		class="$section == 'registry-lookup' ? 'active' : false"
+		href="url_Make('', 'registry-lookup')"
 		cms:eval="href"
 		cms:optional="class"
 		>
