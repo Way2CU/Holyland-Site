@@ -1,0 +1,41 @@
+/**
+ * Mobile Footer Style Sheet
+ * Holyland
+ *
+ * Copyright (c) 2014. by Way2CU, http://way2cu.com
+ * Author: Khalid Sawalhi
+ */
+
+ footer div.inner_wrap.center {
+ 	display: block;
+ 	margin: 0px auto;
+ 	text-align: center;
+ 	background-color: grey;
+ 	padding-top: 20px;
+ 	background-image: url(../images/mobile-footer-background.jpg);
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+ 	background-size: auto 700px;
+ 	min-height: 580px;
+ }
+
+ footer div.inner_wrap.center > span:nth-of-type(1)  {
+ 	display: block;
+ 	background-image: url(../images/logo-white.svg);
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+ 	background-size: 80% auto;
+ 	padding-top: 110px;
+ 	text-shadow: 0px 0px 3px black;
+ 	color: white;
+ 	font-size: 3.2rem;
+ }
+
+ footer div.inner_wrap.center > span:nth-of-type(1) span {
+ 	display: block;
+ 	font-size: 1.1rem;
+ }
+
+ footer div.inner_wrap.center > span , footer div.inner_wrap.center div.call_to_action + span {
+ 	text-shadow: 0px 0px 5px black;
+ }
