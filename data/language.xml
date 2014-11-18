@@ -55,6 +55,10 @@
 		<constant name="proximity">Sites in proximity to your land</constant>
 		<constant name="maps">Maps</constant>
 		<constant name="magdala">Magdala</constant>
-		<constant name="highlight">more highlight</constant>
+		<constant name="highlight">More highlight</constant>
+
+		<!-- registry lookup -->
+		<constant name="registry_lookup">Online Registry Lookup</constant>
+		<constant name="certificate_number">Enter certificate number:</constant>
 	</language>
 </document>
