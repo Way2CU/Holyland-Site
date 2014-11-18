@@ -24,7 +24,7 @@
 						<cms:template file="parts/main_menu.xml"/>
 					</nav>
 					<a
-						 href="url_Make('', 'Purchase')"
+						 href="url_Make('', 'purchase')"
 						 cms:eval="href"
 						 eval="href" 
 						 class="cart"
@@ -36,7 +36,7 @@
 					/>
 				</a>
 				<a
-					href="url_Make('', 'Purchase')"
+					href="url_Make('', 'purchase')"
 					cms:eval="href"
 					 class="cart"
 					 eval="href" 
@@ -49,21 +49,26 @@
 		<cms:mobile>
 			<div class="mobile_title">
 
-				<div class="mobile_menu">
 					<a href="javascript:void(0)" class="menu"></a>
+				<div class="mobile_menu">
 
 					<nav id="menu">
 						<cms:template file="parts/main_menu.xml"/>
 					</nav>
 				</div>
-
-				<img
-					src="_BASEURL.'/site/images/logo-yellow.svg'"
-					alt="logo"
-					class="logo"
-					cms:eval="src"
-					/>
-
+				<a
+				 href="url_Make('', '')"
+				 cms:eval="href"
+				 eval="href" 
+				 class="logo"
+				>
+					<img
+						src="_BASEURL.'/site/images/logo-yellow.svg'"
+						alt="logo"
+						class="logo"
+						cms:eval="src"
+						/>
+				</a>
 					<a
 						 href="url_Make('', 'Purchase')"
 						 cms:eval="href"
