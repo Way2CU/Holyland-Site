@@ -13,9 +13,11 @@ a.cart {
 	background-color: white;
 }
 
-img.logo {
+a.logo {
 	display: block;
 	margin:0px auto;
+	text-align: center;
+	width: 200px;
 }
 
 
@@ -32,11 +34,13 @@ img.logo {
 	background-repeat: no-repeat;
 	background-position: -10px center;
 	background-size: 40px 40px;
+	color: white;
 	position: absolute;
-	left: 209px;
-	top: -50px;
+	left: 5px;
+	top: 5px;
 
 	transition: 0.3s all;
+
 }
 
 .mobile_title.menu_visible a.menu {
@@ -44,11 +48,19 @@ img.logo {
 }
 
 .mobile_menu {
-
-	background-color: white;
+	background-color: #33516f;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
+nav#menu a {
+	color:white;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+}
+
+section > a:nth-child(1) {
+	opacity: 0.5;
+}
 .mobile_menu div {
 
 	padding: 0.5em;
@@ -58,6 +70,21 @@ img.logo {
 
 .mobile_menu div span {
 	display: block;
+}
+
+.mobile_menu nav#dropdown a:before {
+	content: '';
+	width: 5px;
+	height: 1px;
+	background-color: #cda349;
+	position: absolute;
+	left: 0px;
+	top: 20px;
+}
+
+.mobile_menu nav#dropdown a {
+	margin-left: 10px;
+	position: relative;
 }
 
 header div.inner_wrap.center {
@@ -74,14 +101,17 @@ div.inner_wrap.center > h1 {
 	padding-top: 75px;
 	color: white;
 	font-size: 1.2rem;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 div.inner_wrap.center > h1 span {
 	font-size: 1rem;
 	display: block;
 	margin: 0px;
-	font-weight: normal;
 	color: white;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 div.inner_wrap.center div.call_to_action {
@@ -113,12 +143,8 @@ div.inner_wrap.center div.call_to_action + span {
 	display: block;
 	padding-top: 30px;
 	color: white;
-}
-
-header div.inner_wrap.center div.call_to_action + span {
-	display: block;
-	text-align: center;
-	font-size: 1rem;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 div.inner_wrap.center div.call_to_action + span + span {
@@ -126,4 +152,6 @@ div.inner_wrap.center div.call_to_action + span + span {
 	font-size: 1.1rem;
 	text-align: center;
 	color: #7e8b8c;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }

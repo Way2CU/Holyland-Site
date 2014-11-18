@@ -51,21 +51,22 @@ header div.inner_wrap a.logo {
 
 header nav#main {
 	position: absolute;
-	width: 600px;
+	width: 640px;
 	left: 50%;
-	top: 20px;
-	margin-left: -300px;
+	top: 15px;
+	margin-left: -320px;
 }
 
 header nav#main a {
 	display: inline-block;
-	margin: 0px 5px;
+	margin: 3px 5px;
 	padding:10px;
 	font-size: 1.3rem;
 	color: white;
 	text-decoration: none;
 	vertical-align: top;
-
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 	transition: 0.3s all;
 }
 
@@ -78,8 +79,21 @@ header nav > section > nav {
 	left: 0px;
 	z-index: 1;
 	background-color: #33516f;
+	width: 185px;
 }
 
+header nav > section > nav#dropdown a {
+	display: block;
+	padding: 10px;
+	margin: 0px;
+	font-size: 1.3rem;
+	color: white;
+	text-decoration: none;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	transition: 0.3s all;
+}
 header nav > section:hover > nav {
 	display: block;
 }
@@ -132,6 +146,8 @@ div.inner_wrap.center > h1 {
 	padding-top: 5px;
 	color: white;
 	font-size: 3.2rem;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 div.inner_wrap.center > h1 span {
@@ -187,11 +203,16 @@ div.inner_wrap.center div.call_to_action + span + span {
 	left: 50%;
 	width: 830px;
 	margin-left: -415px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 @media (max-width: 1200px) {
 	header div.inner_wrap a.logo img {
 		padding-left: 20px;
-		width: 160px;
+		width: 140px;
+	}
+	header.home{
+		background-image: url(../images/header-background-tablet.jpg);
 	}
 }

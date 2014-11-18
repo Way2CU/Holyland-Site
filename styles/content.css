@@ -29,7 +29,7 @@ div.wrap div.pricing_container article {
   	display: inline-block;
   	vertical-align: top;
   	width: 390px;
-  	min-height: 415px;
+  	min-height: 525px;
   	border: 1px solid #bcc2c6;
   	position: relative;
 }
@@ -47,6 +47,11 @@ div.wrap div.pricing_container article:before {
 	content: ''; 
 }
 
+div.wrap div.pricing_container article h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+}
+
 div.wrap div.pricing_container article:nth-of-type(1):before {
 	background-image: url(../images/standard-gift-package.png);
 }
@@ -59,15 +64,22 @@ div.wrap div.pricing_container article:nth-of-type(3):before {
 	background-image: url(../images/deluxe-gift-package.png);
 }
 
-div.wrap div.pricing_container article:nth-of-type(1) h2 {
-	color: #7e8b8c;
+div.wrap div.pricing_container article p:nth-of-type(1) {
+	margin: 0px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 2.5rem;
 }
 
-div.wrap div.pricing_container article:nth-of-type(2) h2 {
+div.wrap div.pricing_container article:nth-of-type(1) h2  , div.wrap div.pricing_container article:nth-of-type(1) h2 + p {
+	color: #375d4c;
+}
+
+div.wrap div.pricing_container article:nth-of-type(2) h2 , div.wrap div.pricing_container article:nth-of-type(2) h2 + p{
 	color: #33516f;
 }
 
-div.wrap div.pricing_container article:nth-of-type(3) h2 {
+div.wrap div.pricing_container article:nth-of-type(3) h2 , div.wrap div.pricing_container article:nth-of-type(3) h2 + p{
 	color: #cda349;
 }
 
@@ -116,6 +128,10 @@ div.wrap.white div.location_container article {
 	color: #7e8b8c;
 }
 
+div.wrap.white div.location_container article h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+}
 div.wrap.white div.location_container article p {
 	max-width: 400px;
 }
@@ -139,7 +155,7 @@ div.wrap.white div.location_container div.call_to_action a {
 	border: 1px solid #fc4a45;
 	background-color: #fc4a45;
 	font-size: 1.5rem;
-	margin: 0px 10px;
+	margin: 0px 10px 0px 0px;
 	border-radius: 5px;
 }
 
@@ -169,6 +185,8 @@ div.wrap.video div.inner_wrap > span {
 	color: white;
 	margin: 0px auto;
 	padding: 50px 0px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 
@@ -189,7 +207,8 @@ div.wrap.white div.inner_wrap.process > h1 , div.wrap.white div.inner_wrap.locat
 	color: #7e8b8c;
 	font-size: 3.3rem;
 	text-align: center;
-	font-weight: normal;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 
@@ -199,7 +218,9 @@ div.wrap.white div.inner_wrap.area > span {
 	padding: 30px 0px;
 	color: #7e8b8c;
 	font-size: 3.3rem;
-	text-align: center;	
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 div.wrap.white div.inner_wrap.area article {
@@ -239,6 +260,8 @@ div.wrap.white div.inner_wrap.area article h3 {
 	padding-bottom: 10px;
 	font-size: 1.2rem;
 	color:#33516f;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 div.wrap.white div.inner_wrap.area article p {
 	max-width: 300px;
@@ -257,6 +280,7 @@ div.wrap.white div.inner_wrap.process article {
 	background-position: center top;
 	background-size: auto 151px;
 	position: relative;
+	color: #7e8b8c;
 }
 
 div.wrap.white div.inner_wrap.process article:nth-of-type(2) {
@@ -282,6 +306,8 @@ div.wrap.grey div.inner_wrap > span {
 	color: #7e8b8c;
 	font-size: 3.3rem;
 	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 div.wrap.white div.inner_wrap.location article {
@@ -318,7 +344,8 @@ div.wrap.white div.inner_wrap.contact > h1:nth-of-type(1) {
 	color: #33516f;
 	font-size: 3.3rem;
 	text-align: center;
-	font-weight: normal;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 div.wrap.white div.inner_wrap.contact > span:nth-of-type(1), div.wrap.white div.inner_wrap.contact > span:nth-of-type(2) {
@@ -326,8 +353,9 @@ div.wrap.white div.inner_wrap.contact > span:nth-of-type(1), div.wrap.white div.
 	margin: 0px auto;
 	color: #33516f;
 	font-size: 1.3rem;
-	font-weight: bold;
 	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 div.wrap.white div.inner_wrap.contact a:nth-of-type(1) {
@@ -363,6 +391,8 @@ div.wrap.white div.inner_wrap.contact div.form_container > span:nth-of-type(1) {
 	padding: 10px 0px;
 	font-size: 1.3rem;
 	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 div.wrap.white div.inner_wrap.contact div.form_container form {
@@ -434,7 +464,8 @@ div.wrap.white div.inner_wrap.faq > h1 {
 	color: #7e8b8c;
 	font-size: 3.3rem;
 	text-align: center;
-	font-weight: normal;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 div#faq dl {
@@ -449,6 +480,8 @@ div#faq dl dt {
 	padding-bottom: 20px;
 	border-top: 1px solid #bcc2c6;
 	position: relative;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 div#faq dl dt:nth-of-type(1) {
@@ -492,11 +525,12 @@ div.wrap.white div.inner_wrap.mount_arbel > h1 , div.wrap.white div.inner_wrap.m
 	top: 170px;
 	right: calc(50% - 600px);
 	color: white;
-	font-weight: normal;
 	font-size: 3rem;
 	background-color: rgba(51, 81, 111, 0.6);
 	padding: 5px;
-	width: 60%;
+	width: 710px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 div.wrap.white div.inner_wrap.mount_arbel article {
@@ -523,6 +557,8 @@ div.wrap.white div.inner_wrap.mount_arbel article:nth-of-type(2) {
 
 div.wrap.white div.inner_wrap.mount_arbel article p strong {
 	color: #33516f;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 div.wrap.white div.inner_wrap.magdala article {
@@ -550,6 +586,8 @@ div.wrap.white div.inner_wrap.magdala article p strong {
 	font-size:1.3rem;
 	padding-bottom: 10px;
 	color: #33516f;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 div.wrap.white div.inner_wrap.magdala iframe.video {
@@ -582,28 +620,31 @@ div.wrap.white div.inner_wrap.maps  h1 + span {
 	color: #33516f;
 	font-size: 3.3rem;
 	text-align: center;
-	font-weight: normal;
 
 	background-image: url(../images/closeup.jpg);
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: auto 853px;
 	padding-top: 920px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 div.wrap.white div.inner_wrap.maps span + span {
 	display: block;
 	margin: 0px auto;
+	margin-top: 30px;
 	color: #33516f;
-	font-size: 1.3rem;
+	font-size: 1.6rem;
 	text-align: center;
-	font-weight: normal;
 
 	background-image: url(../images/historical-map-from.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-size: auto 687px;
-	padding-bottom: 720px;	
+	padding-bottom: 720px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 div.wrap.white div.inner_wrap.maps span:last-child {
@@ -612,6 +653,8 @@ div.wrap.white div.inner_wrap.maps span:last-child {
 	background-image: url(../images/magdala-photo-top.jpg);
 	background-size: auto 469px;
 	padding-bottom: 500px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
 div.wrap.white div.inner_wrap.the_land article  p {
@@ -675,7 +718,7 @@ div.wrap.white div.inner_wrap.the_land article:nth-of-type(8) {
 
 div.wrap.white div.inner_wrap.the_land article:nth-of-type(9) {
 	background-image: url(../images/land-of-the-gadarenes.jpg);
-	background-size: 600px auto;
+	background-size: 550px auto;
 }
 
 div.wrap.white div.inner_wrap.the_land article:nth-of-type(10) {
@@ -687,10 +730,83 @@ div.wrap.white div.inner_wrap.the_land article  p strong {
 	font-size:1.3rem;
 	padding-bottom: 10px;
 	color: #33516f;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 
+/*registry lookup*/
+
+div.wrap div.inner_wrap.lookup > h1 {
+	display: block;
+	margin: 0px auto;
+	padding: 30px 0px;
+	color: #33516f;
+	font-size: 3.3rem;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+}
+
+div.wrap div.inner_wrap.lookup article:nth-of-type(1) {
+	display: block;
+	text-align: center;
+	margin: 0px auto;
+	max-width: 620px;
+	padding-bottom: 30px;
+	color: #7e8b8c;
+}
+
+div.wrap div.inner_wrap.lookup div.search_container {
+	padding-bottom: 30px;
+	max-width: 600px;
+	margin:0px auto;
+	margin-bottom: 30px;
+	background-color: #ebeff0;
+}
+
+div.wrap div.inner_wrap.lookup div.search_container > span {
+	display: block;
+	margin: 0px auto;
+	color: #33516f;
+	padding: 10px 0px;
+	font-size: 1.3rem;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+}
+
+div.wrap div.inner_wrap.lookup div.search_container form {
+	display: block;
+	margin:10px auto 0px auto;
+	text-align: center;
+}
+
+div.wrap div.inner_wrap.lookup div.search_container form input {
+	display: inline-block;
+	vertical-align: top;
+	margin:0px 10px;
+	padding: 10px;
+	font-size: 1.3rem;
+	border:1px solid black;
+}
+
+div.wrap div.inner_wrap.lookup div.search_container form input[type="submit"] {
+	color: white;
+	border-color: #fc4a45;
+	background-color: #fc4a45;
+	padding: 10px 20px;
+	cursor: pointer;
+}
 
 @media (max-width: 1200px) {
+	div.inner_wrap.center > h1 {
+		font-size: 2.6rem
+	}
+
+	div.wrap.white div.location_container div.call_to_action a:nth-of-type(1) {
+		margin-bottom: 10px
+	}
+
 	div.wrap div.pricing_container article {
 		width: 320px;
 	}

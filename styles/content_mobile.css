@@ -29,13 +29,15 @@
  	margin: 30px auto;
  	width: 90%;
  	background-color: white;
-	min-height: 655px;
+  min-height: 745px;
  	border: 1px solid #bcc2c6;
  	position: relative;
  }
 
  div.wrap div.pricing_container article h2 {
  	padding-top: 200px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
  }
 
  div.wrap div.pricing_container article:before {
@@ -88,6 +90,22 @@
  	font-size: 1.5rem;
  }
 
+ div.wrap div.pricing_container article p:nth-of-type(1) {
+    font-size: 1.75rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 10px;
+ }
+
+ div.wrap div.pricing_container article:nth-of-type(2) p:nth-of-type(1) {
+  color: #33516f;
+ }
+
+ div.wrap div.pricing_container article:nth-of-type(3) p:nth-of-type(1) {
+  color: #cda349;
+ }
+
  div.wrap div.pricing_container article p {
  	color: #7e8b8c;
  }
@@ -120,6 +138,11 @@
  	margin: 0px auto;
  	padding-bottom: 20px;
  	color: #7e8b8c;
+ }
+
+ div.wrap.white div.location_container article h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
  }
 
  div.wrap.white div.location_container article + span {
@@ -173,6 +196,8 @@
  	color: white;
  	margin: 0px auto;
  	padding: 50px 0px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
  }
 
 
@@ -195,7 +220,8 @@
  	color: #7e8b8c;
  	font-size: 1.9rem;
  	text-align: center;
- 	font-weight: normal;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
  }
 
 
@@ -205,7 +231,9 @@
  	padding: 30px 10px;
  	color: #7e8b8c;
  	font-size: 1.8rem;
- 	text-align: center;	
+ 	text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
  }
 
  div.wrap.white div.inner_wrap.area article {
@@ -244,6 +272,8 @@
  	padding-bottom: 10px;
  	font-size: 1.2rem;
  	color:#33516f;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
  }
  div.wrap.white div.inner_wrap.area article p {
  	display: block;
@@ -255,6 +285,8 @@
 
 div.wrap.white div.inner_wrap.process h1 {
   padding-top:70px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
 }
 
 div.wrap.white div.inner_wrap.process article {
@@ -292,6 +324,8 @@ div.wrap.grey div.inner_wrap > span {
   color: #7e8b8c;
   font-size: 1.7rem;
   text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
  }
 
 div.wrap.white div.inner_wrap.location article {
@@ -330,7 +364,8 @@ div.wrap.white div.inner_wrap.contact > h1:nth-of-type(1) {
   color: #33516f;
   font-size: 2.2rem;
   text-align: center;
-  font-weight: normal;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
 }
 
 div.wrap.white div.inner_wrap.contact > span:nth-of-type(1), div.wrap.white div.inner_wrap.contact > span:nth-of-type(2) {
@@ -338,7 +373,8 @@ div.wrap.white div.inner_wrap.contact > span:nth-of-type(1), div.wrap.white div.
   margin: 0px auto;
   color: #33516f;
   font-size: 1.3rem;
-  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -362,9 +398,7 @@ div.wrap.white div.inner_wrap.contact a:nth-of-type(1):hover {
 }
 
 div.wrap.white div.inner_wrap.contact div.form_container {
-  margin-bottom: 30px;
   background-color: #ebeff0;
-
 }
 
 div.wrap.white div.inner_wrap.contact div.form_container > span:nth-of-type(1) {
@@ -374,6 +408,8 @@ div.wrap.white div.inner_wrap.contact div.form_container > span:nth-of-type(1) {
   padding: 10px 0px;
   font-size: 1.3rem;
   text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
 }
 
 div.wrap.white div.inner_wrap.contact div.form_container form {
@@ -441,10 +477,12 @@ div.wrap.white div.inner_wrap.faq > h1 {
   display: block;
   margin: 0px auto;
   padding: 30px 0px;
+  padding-top: 70px;
   color: #7e8b8c;
   font-size: 1.8rem;
   text-align: center;
-  font-weight: normal;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
 }
 
 div#faq dl {
@@ -462,6 +500,8 @@ div#faq dl dt {
   padding-bottom: 20px;
   border-top: 1px solid #bcc2c6;
   position: relative;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
 }
 
 div#faq dl dt:nth-of-type(1) {
@@ -493,22 +533,20 @@ div#faq dl dt.expanded:after {
   background-position: 0px -21px;
 }
 
-}
 /*maps page*/
 
-  h1.head {
+div.wrap.white div.inner_wrap.maps h1  , div.wrap.white div.inner_wrap.mount_arbel h1  , div.wrap.white div.inner_wrap.magdala h1 , div.wrap.white div.inner_wrap.the_land h1{
   position: absolute;
-  top: 70px;
+  top: 120px;
   background-color: rgba(51, 81, 111, 0.6);
   width: 100%;
   color: white;
   text-align: center;
   padding: 5px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
 }
 
-div.wrap.white div.inner_wrap.maps h1 + img {
-  width: 100%;
-}
 div.wrap.white div.inner_wrap.maps > span:nth-of-type(1) {
   display: block;
   margin: 0px auto;
@@ -516,12 +554,13 @@ div.wrap.white div.inner_wrap.maps > span:nth-of-type(1) {
   color: #33516f;
   font-size: 2.5rem;
   text-align: center;
-  font-weight: normal;
   background-image: url(../images/fullmaplocation.jpg);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 100% auto;
   padding-bottom: 460px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
 }
 
 div.wrap.white div.inner_wrap.maps span:nth-of-type(2) {
@@ -529,9 +568,10 @@ div.wrap.white div.inner_wrap.maps span:nth-of-type(2) {
   margin: 0px auto;
   margin-top: 30px;
   color: #33516f;
-  font-size: 3.3rem;
+  font-size: 2.4rem;
   text-align: center;
-  font-weight: normal;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
 
   background-image: url(../images/closeup.jpg);
   background-repeat: no-repeat;
@@ -546,7 +586,8 @@ div.wrap.white div.inner_wrap.maps span:nth-of-type(3) {
   color: #33516f;
   font-size: 1.3rem;
   text-align: center;
-  font-weight: normal;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
 
   background-image: url(../images/historical-map-from.jpg);
   background-repeat: no-repeat;
@@ -566,4 +607,195 @@ div.wrap.white div.inner_wrap.maps span:nth-of-type(4) {
   background-position: bottom center;
   background-size: 90% auto;
   padding-bottom: 310px; 
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+
+div.wrap.white div.inner_wrap.mount_arbel article {
+  display: block;
+  padding: 0px 30px;
+  color: #7e8b8c;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+div.wrap.white div.inner_wrap.mount_arbel article:nth-of-type(2) {
+  background-image: url(../images/photo-arbel.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100% auto;
+  padding-bottom: 220px;
+  margin-bottom: 30px;
+}
+
+div.wrap.white div.inner_wrap.mount_arbel article p strong {
+  color: #33516f;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+
+div.wrap.white div.inner_wrap.magdala article {
+  display: block;
+  background-image: 
+  url(../images/magdala-photo-top.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding-bottom: 340px;
+}
+
+div.wrap.white div.inner_wrap.magdala article p {
+  color: #7e8b8c;
+  text-align: center;
+  padding:0px 20px;
+  padding-bottom: 240px;
+  background-repeat: no-repeat;
+  background-image: url(../images/magdala1.jpg);
+  background-position: bottom center;
+  background-size: 100% auto;
+}
+
+div.wrap.white div.inner_wrap.magdala article p strong {
+  display: block;
+  font-size:1.3rem;
+  padding-bottom: 10px;
+  color: #33516f;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+div.wrap.white div.inner_wrap.magdala iframe.video {
+  display: block;
+  margin:0px auto;
+  width: 90%;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+
+div.wrap.white div.inner_wrap.the_land article  p {
+  color: #7e8b8c;
+  text-align: center;
+  padding: 0px 20px;
+  background-repeat: no-repeat; 
+}
+
+div.wrap.white div.inner_wrap.the_land article {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: auto 361px;
+  margin: 70px 20px;
+  background-position: center top;
+  padding-top: 380px;;
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(1) {
+  background-image: url(../images/ginosar.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(2) {
+  background-image: url(../images/the-sea-of-galilee.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(3) {
+  background-image: url(../images/bethsaida.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(4) {
+  background-image: url(../images/chorazim.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(5) {
+  background-image: url(../images/loaves-and-fishes.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(6) {
+  background-image: url(../images/mount of beatitudes.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(7) {
+  background-image: url(../images/cove-of-the-sower.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(8) {
+  background-image: url(../images/capernaum.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(9) {
+  background-image: url(../images/land-of-the-gadarenes.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article:nth-of-type(10) {
+  background-image: url(../images/jordan-river.jpg);
+}
+
+div.wrap.white div.inner_wrap.the_land article  p strong {
+  display: block;
+  font-size:1.3rem;
+  padding-bottom: 10px;
+  color: #33516f;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+
+div.wrap div.inner_wrap.lookup > h1 {
+  display: block;
+  margin: 0px auto;
+  padding-top: 70px;
+  color: #33516f;
+  font-size: 1.6rem;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+div.wrap div.inner_wrap.lookup article:nth-of-type(1) {
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+  padding:0px 30px;
+  padding-bottom: 30px;
+  color: #7e8b8c;
+}
+
+div.wrap div.inner_wrap.lookup div.search_container {
+  padding-bottom: 30px;
+  margin:0px auto;
+  background-color: #ebeff0;
+}
+
+div.wrap div.inner_wrap.lookup div.search_container > span {
+  display: block;
+  margin: 0px auto;
+  color: #33516f;
+  padding: 10px 0px;
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+div.wrap div.inner_wrap.lookup div.search_container form {
+  display: block;
+  margin:10px auto 0px auto;
+  text-align: center;
+}
+
+div.wrap div.inner_wrap.lookup div.search_container form input {
+  display: block;
+  margin:10px auto;
+  padding: 10px;
+  font-size: 1.3rem;
+  border:1px solid black;
+}
+
+div.wrap div.inner_wrap.lookup div.search_container form input[type="submit"] {
+  color: white;
+  border-color: #fc4a45;
+  background-color: #fc4a45;
+  padding: 10px 20px;
+  cursor: pointer;
 }
