@@ -19,7 +19,7 @@
 			>
 			<cms:text constant="The_Area"/>
 		</a>
-		<nav>
+		<nav id="dropdown">
 			<a
 				class="($section == 'area' and $action == 'mount-arbel') ? 'active' : false"
 				href="url_Make('mount-arbel', 'area')"
