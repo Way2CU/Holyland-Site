@@ -25,4 +25,7 @@
 	<section name="registry-lookup">
 		<language name="all" file="registry_lookup.xml" />
 	</section>
+	<section name="checkout">
+		<language name="all" file="checkout.xml"/>
+	</section>
 </document>

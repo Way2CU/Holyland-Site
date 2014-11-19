@@ -9,38 +9,38 @@
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
-				<cms:template file="parts/header.xml"/>
+			<cms:template file="parts/header.xml"/>
 
 			<div class="wrap white">
 				<div class="inner_wrap">
 					<div class="pricing_container">
 						<cms:module
-							name="articles"
-							action="show_list"
-							group="pricing_table"
+							name="shop"
+							action="show_item_list"
 							template="parts/pricing.xml"
-						/>
+							/>
 					</div>
+
 					<div class="location_container">
 						<cms:module
 							name="articles"
 							action="show"
 							text_id="location_text"
 							template="parts/articleh2.xml"
-						/>
+							/>
 						<span><cms:text constant="get_piece"/></span>
 						<div class="call_to_action">
 							<a
-								 href=""
-								 eval="href" 
-							>
+								href=""
+								eval="href" 
+								>
 								<cms:text constant="Get_Started"/>
 							</a>
 
 							<a
-								 href=""
-								 eval="href" 
-							>
+								href=""
+								eval="href" 
+								>
 								<cms:text constant="See_packages_prices"/>
 							</a>
 						</div>
@@ -61,7 +61,7 @@
 						target="video_player"
 						theme="light"
 						autohide="1"
-					/>
+						/>
 				</div>
 			</div>
 
@@ -73,7 +73,7 @@
 						action="show_list"
 						group="area_home"
 						template="parts/area.xml"
-					/>
+						/>
 				</div>
 			</div>
 

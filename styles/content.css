@@ -44,7 +44,7 @@ div.wrap div.pricing_container article:before {
 	background-size: auto 214px;
 	width: 259px;
 	height: 214px;
-	content: ''; 
+	content: '';
 }
 
 div.wrap div.pricing_container article h2 {
@@ -71,15 +71,18 @@ div.wrap div.pricing_container article p:nth-of-type(1) {
 	font-size: 2.5rem;
 }
 
-div.wrap div.pricing_container article:nth-of-type(1) h2  , div.wrap div.pricing_container article:nth-of-type(1) h2 + p {
+div.wrap div.pricing_container article:nth-of-type(1) h2,
+div.wrap div.pricing_container article:nth-of-type(1) h2 + p {
 	color: #375d4c;
 }
 
-div.wrap div.pricing_container article:nth-of-type(2) h2 , div.wrap div.pricing_container article:nth-of-type(2) h2 + p{
+div.wrap div.pricing_container article:nth-of-type(2) h2,
+div.wrap div.pricing_container article:nth-of-type(2) h2 + p{
 	color: #33516f;
 }
 
-div.wrap div.pricing_container article:nth-of-type(3) h2 , div.wrap div.pricing_container article:nth-of-type(3) h2 + p{
+div.wrap div.pricing_container article:nth-of-type(3) h2,
+div.wrap div.pricing_container article:nth-of-type(3) h2 + p{
 	color: #cda349;
 }
 
@@ -118,7 +121,7 @@ div.wrap div.pricing_container article:nth-of-type(2) a:hover {
 
 div.wrap div.pricing_container article:nth-of-type(3) a {
 	background-color: #cda349;
-	border-color: #cda349;	
+	border-color: #cda349;
 }
 
 div.wrap div.pricing_container article:nth-of-type(3) a:hover {
@@ -260,23 +263,23 @@ div.wrap.white div.inner_wrap.area article {
 }
 
 div.wrap.white div.inner_wrap.area article:nth-of-type(2) {
-	background-image: url(../images/bethsaida.jpg);	
+	background-image: url(../images/bethsaida.jpg);
 }
 
 div.wrap.white div.inner_wrap.area article:nth-of-type(3) {
-	background-image: url(../images/mount-of-beatitudes.jpg);	
+	background-image: url(../images/mount-of-beatitudes.jpg);
 }
 
 div.wrap.white div.inner_wrap.area article:nth-of-type(4) {
-	background-image: url(../images/sea-of-galilee.jpg);	
+	background-image: url(../images/sea-of-galilee.jpg);
 }
 
 div.wrap.white div.inner_wrap.area article:nth-of-type(5) {
-	background-image: url(../images/chorazin.jpg);	
+	background-image: url(../images/chorazin.jpg);
 }
 
 div.wrap.white div.inner_wrap.area article:nth-of-type(6) {
-	background-image: url(../images/ginosar.jpg);	
+	background-image: url(../images/ginosar.jpg);
 }
 
 div.wrap.white div.inner_wrap.area article h3 {
@@ -292,7 +295,6 @@ div.wrap.white div.inner_wrap.area article p {
 	margin: 0px;
 	color: #7e8b8c;
 }
-
 
 div.wrap.white div.inner_wrap.process article {
 	display: inline-block;
@@ -405,7 +407,6 @@ div.wrap.white div.inner_wrap.contact a:nth-of-type(1):hover {
 div.wrap.white div.inner_wrap.contact div.form_container {
 	margin-bottom: 30px;
 	background-color: #ebeff0;
-
 }
 
 div.wrap.white div.inner_wrap.contact div.form_container > span:nth-of-type(1) {
@@ -451,7 +452,6 @@ div.wrap.white div.inner_wrap.contact div.form_container form  label input:focus
 
 div.wrap.white div.inner_wrap.contact div.form_container form  label:last-child {
 	display: block;
-
 }
 
 div.wrap.white div.inner_wrap.contact div.form_container form  label textarea {
@@ -547,10 +547,13 @@ div#faq dl dt.expanded:after {
 	background-position: 0px -21px;
 }
 
-
-/*the area list */
-
-div.wrap.white div.inner_wrap.mount_arbel > h1 , div.wrap.white div.inner_wrap.magdala > h1 , div.wrap.white div.inner_wrap.the_land > h1 , div.wrap.white div.inner_wrap.maps > h1 {
+/**
+ * Area list
+ */
+div.wrap.white div.inner_wrap.mount_arbel > h1,
+div.wrap.white div.inner_wrap.magdala > h1,
+div.wrap.white div.inner_wrap.the_land > h1,
+div.wrap.white div.inner_wrap.maps > h1 {
 	position: absolute;
 	top: 170px;
 	right: calc(50% - 600px);
@@ -593,8 +596,7 @@ div.wrap.white div.inner_wrap.mount_arbel article p strong {
 
 div.wrap.white div.inner_wrap.magdala article {
 	display: block;
-	background-image: 
-	url(../images/magdala-photo-top.jpg);
+	background-image: url(../images/magdala-photo-top.jpg);
 	background-position: right top;
 	background-repeat: no-repeat;
 	background-size: 570px auto;
@@ -691,7 +693,7 @@ div.wrap.white div.inner_wrap.the_land article  p {
 	color: #7e8b8c;
 	text-align: left;
 	max-width: 580px;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
 }
 
 div.wrap.white div.inner_wrap.the_land article {
@@ -711,8 +713,7 @@ div.wrap.white div.inner_wrap.the_land article:nth-child(even) {
 div.wrap.white div.inner_wrap.the_land article:nth-child(odd) {
 	padding-left: 610px;
 	background-position: left top;
-} 
-
+}
 
 div.wrap.white div.inner_wrap.the_land article:nth-of-type(1) {
 	background-image: url(../images/ginosar.jpg);
@@ -886,4 +887,12 @@ div.wrap div.inner_wrap.lookup div.search_container form input[type="submit"]:ho
 	div.wrap.white div.inner_wrap.the_land > h1 {
 		font-size: 2.2rem;
 	}
+}
+
+div#input_details div.pages div.page {
+	display: none;
+}
+
+div#input_details div.pages div.page.visible {
+	display: block;
 }
