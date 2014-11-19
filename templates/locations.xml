@@ -17,7 +17,7 @@
 							<h1><cms:text constant="maps"/></h1>
 							<img
 								src="_BASEURL.'/site/images/maps-page.jpg'"
-								alt="mount-arbel"
+								alt="maps"
 								cms:eval="src"
 							/>
 							<span><cms:text constant="locations_maps"/></span>

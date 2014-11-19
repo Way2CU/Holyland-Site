@@ -94,6 +94,12 @@ div.wrap div.pricing_container article a {
 	border: 1px solid #375d4c;
 	border-radius: 5px;
 	font-size: 1.5rem;
+	transition: 0.3s all;
+}
+
+div.wrap div.pricing_container article a:hover {
+	background-color: #008046;
+	border-color: #008046;
 }
 
 div.wrap div.pricing_container article p {
@@ -105,11 +111,20 @@ div.wrap div.pricing_container article:nth-of-type(2) a {
 	border-color: #33516f;
 }
 
+div.wrap div.pricing_container article:nth-of-type(2) a:hover {
+	background-color: #1a4d80;
+	border-color: #1a4d80;
+}
+
 div.wrap div.pricing_container article:nth-of-type(3) a {
 	background-color: #cda349;
 	border-color: #cda349;	
 }
 
+div.wrap div.pricing_container article:nth-of-type(3) a:hover {
+	background-color: #997b33;
+	border-color: #997b33;
+}
 
 div.wrap.white div.location_container {
 	background-image: url(../images/tree.jpg);
@@ -157,6 +172,12 @@ div.wrap.white div.location_container div.call_to_action a {
 	font-size: 1.5rem;
 	margin: 0px 10px 0px 0px;
 	border-radius: 5px;
+	transition: 0.5s all;
+}
+
+div.wrap.white div.location_container div.call_to_action a:hover {
+	background-color: #e60600;
+	border-color: #e60600;
 }
 
 div.wrap.white div.location_container div.call_to_action a:nth-of-type(2) {
@@ -211,6 +232,9 @@ div.wrap.white div.inner_wrap.process > h1 , div.wrap.white div.inner_wrap.locat
 	font-weight: 400;
 }
 
+div.wrap.white div.inner_wrap.area {
+	margin-bottom: 30px;
+}
 
 div.wrap.white div.inner_wrap.area > span {
 	display: block;
@@ -313,7 +337,7 @@ div.wrap.grey div.inner_wrap > span {
 div.wrap.white div.inner_wrap.location article {
 	padding-left: 20px;
 	padding-right: 590px;
-	padding-top: 100px;
+	padding-top: 20px;
 	padding-bottom: 100px;
 	background-image: url(../images/map.jpg);
 	background-repeat: no-repeat;
@@ -418,6 +442,11 @@ div.wrap.white div.inner_wrap.contact div.form_container form  label input {
 	font-size: 1.3rem;
 	padding: 5px;
 	border: 1px solid black;
+	transition: 0.5s all;
+}
+
+div.wrap.white div.inner_wrap.contact div.form_container form  label input:focus , div.wrap.white div.inner_wrap.contact div.form_container form  label textarea:focus {
+	border-color: #fc4a45;
 }
 
 div.wrap.white div.inner_wrap.contact div.form_container form  label:last-child {
@@ -431,6 +460,7 @@ div.wrap.white div.inner_wrap.contact div.form_container form  label textarea {
 	border: 1px solid black;
 	margin: 30px 10px;
 	width: 985px;
+	transition: 0.5s all;
 }
 
 div.wrap.white div.inner_wrap.contact div.form_container form div.controls {
@@ -788,6 +818,11 @@ div.wrap div.inner_wrap.lookup div.search_container form input {
 	padding: 10px;
 	font-size: 1.3rem;
 	border:1px solid black;
+	transition: 0.5s all;
+}
+
+div.wrap div.inner_wrap.lookup div.search_container form input:focus{
+	border-color: #fc4a45;
 }
 
 div.wrap div.inner_wrap.lookup div.search_container form input[type="submit"] {
@@ -796,6 +831,12 @@ div.wrap div.inner_wrap.lookup div.search_container form input[type="submit"] {
 	background-color: #fc4a45;
 	padding: 10px 20px;
 	cursor: pointer;
+	transition: 0.5s all;
+}
+
+div.wrap div.inner_wrap.lookup div.search_container form input[type="submit"]:hover {
+	background-color: #fac825;
+	border-color: #fac825;
 }
 
 @media (max-width: 1200px) {

@@ -17,7 +17,7 @@
 							<h1><cms:text constant="proximity"/></h1>
 							<img
 								src="_BASEURL.'/site/images/sites-in-proximity.jpg'"
-								alt="mount-arbel"
+								alt="proximity"
 								cms:eval="src"
 							/>
 							<cms:module

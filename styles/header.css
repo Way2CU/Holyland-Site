@@ -65,8 +65,6 @@ header nav#main a {
 	color: white;
 	text-decoration: none;
 	vertical-align: top;
-	font-family: 'Roboto Slab', serif;
-	font-weight: 400;
 	transition: 0.3s all;
 }
 
@@ -90,8 +88,6 @@ header nav > section > nav#dropdown a {
 	color: white;
 	text-decoration: none;
 	text-align: left;
-	font-family: 'Roboto Slab', serif;
-	font-weight: 400;
 	transition: 0.3s all;
 }
 header nav > section:hover > nav {
@@ -135,10 +131,10 @@ header div.inner_wrap a.cart:hover {
 }
 
 header.home div.inner_wrap.center {
-	min-height: 350px;
+	min-height: 400px;
 	padding-left: 200px;
 	position: relative;
-	top: 190px
+	top: 150px;
 }
 
 div.inner_wrap.center > h1 {
@@ -175,12 +171,24 @@ div.inner_wrap.center div.call_to_action a {
 	margin: 0px 10px;
 	border-radius: 5px;
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.50);
+
+	transition: 0.5s all;
+}
+
+div.inner_wrap.center div.call_to_action a:hover {
+	background-color: #e60600;
+	border-color: #e60600;
 }
 
 div.inner_wrap.center div.call_to_action a:nth-of-type(2) {
 	padding: 10px 30px;
 	background-color: #fac825;
 	border-color: #fac825;
+}
+
+div.inner_wrap.center div.call_to_action a:nth-of-type(2):hover {
+	background-color: #e6af00;
+	border-color: #e6af00;
 }
 
 div.inner_wrap.center div.call_to_action + span {

@@ -20,6 +20,11 @@ a.logo {
 	width: 200px;
 }
 
+a.logo img {
+	width: 150px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 
 .mobile_title {
 	background-color: #33485D;
@@ -36,7 +41,7 @@ a.logo {
 	background-size: 40px 40px;
 	color: white;
 	position: absolute;
-	left: 5px;
+	left: 0px;
 	top: 5px;
 
 	transition: 0.3s all;
@@ -91,7 +96,8 @@ header div.inner_wrap.center {
 	background-image: url(../images/mobile-header-background.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
-	background-size: auto 100%;}
+	background-size: 100% auto;
+}
 
 div.inner_wrap.center > h1 {
 	display: block;
@@ -100,18 +106,18 @@ div.inner_wrap.center > h1 {
 	padding: 0px 20px;
 	padding-top: 75px;
 	color: white;
-	font-size: 1.2rem;
+	font-size: 1.7rem;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
 }
 
 div.inner_wrap.center > h1 span {
-	font-size: 1rem;
 	display: block;
 	margin: 0px;
 	color: white;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
+	font-size: 1.4rem;
 }
 
 div.inner_wrap.center div.call_to_action {
@@ -141,8 +147,11 @@ div.inner_wrap.center div.call_to_action a:nth-of-type(2) {
 
 div.inner_wrap.center div.call_to_action + span {
 	display: block;
-	padding-top: 30px;
-	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: black;
+	font-size: 0.9rem;
+	text-align: center;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
 }

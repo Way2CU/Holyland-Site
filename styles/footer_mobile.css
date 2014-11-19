@@ -40,6 +40,12 @@
  	font-weight: 400;
  }
 
- footer div.inner_wrap.center > span , footer div.inner_wrap.center div.call_to_action + span {
+ footer div.inner_wrap.center > span {
  	text-shadow: 0px 0px 5px black;
+ }
+
+ footer div.inner_wrap.center div.call_to_action + span {
+ 	text-shadow: 0px 0px 5px black;
+ 	color: white;
+ 	font-size: 0.9rem;
  }

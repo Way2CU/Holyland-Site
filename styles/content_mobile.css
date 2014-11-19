@@ -125,9 +125,9 @@
  	background-image: url(../images/tree.jpg);
  	background-repeat: no-repeat;
  	background-position: top center;
- 	background-size: auto 500px;
- 	min-height: 500px;
- 	padding-top: 530px;
+  background-size: 100% auto;
+  min-height: 500px;
+  padding-top: 370px;
  	padding-left: 10px;
  	padding-right: 10px;
  }
@@ -241,14 +241,19 @@
  	background-image: url(../images/arbel-village.jpg);
  	background-position: top center;
  	background-repeat: no-repeat;
- 	background-size: 210px auto;
- 	margin: 30px 0px;
- 	padding: 180px 10px 0px 10px;
+  background-size: 100% auto;
+ 	margin: 10px 0px 30px 0px;
+ 	padding: 280px 10px 0px 10px;
  	text-align: center;
+ }
+
+ div.wrap.white div.inner_wrap.area article:nth-of-type(1) {
+  padding-top: 220px;
  }
 
  div.wrap.white div.inner_wrap.area article:nth-of-type(2) {
  	background-image: url(../images/bethsaida.jpg);	
+  padding-top: 250px;
  }
 
  div.wrap.white div.inner_wrap.area article:nth-of-type(3) {
@@ -256,7 +261,8 @@
  }
 
  div.wrap.white div.inner_wrap.area article:nth-of-type(4) {
- 	background-image: url(../images/sea-of-galilee.jpg);	
+ 	background-image: url(../images/sea-of-galilee.jpg);
+  padding-top: 250px;
  }
 
  div.wrap.white div.inner_wrap.area article:nth-of-type(5) {
@@ -264,7 +270,8 @@
  }
 
  div.wrap.white div.inner_wrap.area article:nth-of-type(6) {
- 	background-image: url(../images/ginosar.jpg);	
+ 	background-image: url(../images/ginosar.jpg);
+  padding-top: 240px;
  }
 
  div.wrap.white div.inner_wrap.area article h3 {
@@ -310,7 +317,7 @@ div.wrap.white div.inner_wrap.process article:nth-of-type(3) {
  }
 
 div.wrap.white div.inner_wrap.process article p {
-  max-width: 260px;
+  text-align: center;
  }
 
 div.wrap.grey {
@@ -330,6 +337,7 @@ div.wrap.grey div.inner_wrap > span {
 
 div.wrap.white div.inner_wrap.location article {
   padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 250px;
   margin-bottom: 50px;
   background-image: url(../images/map.jpg);
@@ -558,7 +566,7 @@ div.wrap.white div.inner_wrap.maps > span:nth-of-type(1) {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 100% auto;
-  padding-bottom: 460px;
+  padding-bottom: 500px;
   font-family: 'Roboto Slab', serif;
   font-weight: 400;
 }
@@ -593,7 +601,7 @@ div.wrap.white div.inner_wrap.maps span:nth-of-type(3) {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 90% auto;
-  padding-bottom: 310px; 
+  padding-bottom: 330px; 
 }
 
 div.wrap.white div.inner_wrap.maps span:nth-of-type(4) {
@@ -606,7 +614,7 @@ div.wrap.white div.inner_wrap.maps span:nth-of-type(4) {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 90% auto;
-  padding-bottom: 310px; 
+  padding-bottom: 340px; 
   font-family: 'Roboto Slab', serif;
   font-weight: 400;
 }
@@ -617,7 +625,7 @@ div.wrap.white div.inner_wrap.mount_arbel article {
   padding: 0px 30px;
   color: #7e8b8c;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 div.wrap.white div.inner_wrap.mount_arbel article:nth-of-type(2) {
@@ -625,12 +633,13 @@ div.wrap.white div.inner_wrap.mount_arbel article:nth-of-type(2) {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 100% auto;
-  padding-bottom: 220px;
+  padding-bottom: 250px;
   margin-bottom: 30px;
 }
 
 div.wrap.white div.inner_wrap.mount_arbel article p strong {
   color: #33516f;
+  font-size: 1.5rem;
   font-family: 'Roboto Slab', serif;
   font-weight: 400;
 }
@@ -643,7 +652,7 @@ div.wrap.white div.inner_wrap.magdala article {
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  padding-bottom: 340px;
+  padding-bottom: 390px;
 }
 
 div.wrap.white div.inner_wrap.magdala article p {
@@ -659,7 +668,7 @@ div.wrap.white div.inner_wrap.magdala article p {
 
 div.wrap.white div.inner_wrap.magdala article p strong {
   display: block;
-  font-size:1.3rem;
+  font-size: 1.5rem;
   padding-bottom: 10px;
   color: #33516f;
   font-family: 'Roboto Slab', serif;
@@ -670,8 +679,8 @@ div.wrap.white div.inner_wrap.magdala iframe.video {
   display: block;
   margin:0px auto;
   width: 90%;
-  margin-top: 70px;
-  margin-bottom: 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 
@@ -686,7 +695,7 @@ div.wrap.white div.inner_wrap.the_land article {
   display: block;
   background-repeat: no-repeat;
   background-size: auto 361px;
-  margin: 70px 20px;
+  margin: 70px 0px;
   background-position: center top;
   padding-top: 380px;;
 }
@@ -733,7 +742,7 @@ div.wrap.white div.inner_wrap.the_land article:nth-of-type(10) {
 
 div.wrap.white div.inner_wrap.the_land article  p strong {
   display: block;
-  font-size:1.3rem;
+  font-size: 1.5rem;
   padding-bottom: 10px;
   color: #33516f;
   font-family: 'Roboto Slab', serif;

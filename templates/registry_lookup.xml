@@ -22,7 +22,7 @@
 					/>
 					<div class="search_container">
 						<span><cms:text constant="certificate_number"/></span>
-						<form action="">
+						<form action="http://localhost">
 							<input type="text"/>
 							<input type="submit" value="search"/>
 						</form>
