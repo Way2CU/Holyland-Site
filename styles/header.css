@@ -168,7 +168,7 @@ div.inner_wrap.center div.call_to_action a {
 	border: 1px solid #fc4a45;
 	background-color: #fc4a45;
 	font-size: 1.5rem;
-	margin: 0px 10px;
+	margin: 0px 10px 0px 0px;
 	border-radius: 5px;
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.50);
 
@@ -222,5 +222,12 @@ div.inner_wrap.center div.call_to_action + span + span {
 	}
 	header.home{
 		background-image: url(../images/header-background-tablet.jpg);
+	}
+
+	header.home div.inner_wrap.center {
+		padding-left: 30px;
+	}
+	header div.inner_wrap.center div.call_to_action + span{
+		margin-left: 0px;
 	}
 }

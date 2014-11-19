@@ -840,9 +840,6 @@ div.wrap div.inner_wrap.lookup div.search_container form input[type="submit"]:ho
 }
 
 @media (max-width: 1200px) {
-	div.inner_wrap.center > h1 {
-		font-size: 2.6rem
-	}
 
 	div.wrap.white div.location_container div.call_to_action a:nth-of-type(1) {
 		margin-bottom: 10px
