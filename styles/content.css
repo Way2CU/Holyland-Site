@@ -6,17 +6,17 @@
  * Author: Khalid Sawalhi
  */
 
- div.inner_wrap {
- 	display: block;
- 	max-width: 1200px;
- 	margin-left: auto;
- 	margin-right: auto;
- 	position: relative;
- }
+div.inner_wrap {
+	display: block;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
 
- div.wrap.white {
- 	background-color: white;
- }
+div.wrap.white {
+	background-color: white;
+}
 
 div.wrap div.pricing_container {
 	padding-top: 270px;
@@ -25,12 +25,12 @@ div.wrap div.pricing_container {
 }
 
 div.wrap div.pricing_container article {
-  	display: inline-block;
-  	vertical-align: top;
-  	width: 390px;
-  	min-height: 415px;
-  	border: 1px solid #bcc2c6;
-  	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 390px;
+	min-height: 415px;
+	border: 1px solid #bcc2c6;
+	position: relative;
 }
 
 div.wrap div.pricing_container article:before {
@@ -682,4 +682,12 @@ div.wrap.white div.inner_wrap.the_land article  p strong {
 	font-size:1.3rem;
 	padding-bottom: 10px;
 	color: #33516f;
+}
+
+div#input_details div.pages div.page {
+	display: none;
+}
+
+div#input_details div.pages div.page.visible {
+	display: block;
 }
