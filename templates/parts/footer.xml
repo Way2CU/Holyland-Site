@@ -24,5 +24,32 @@
 			</div>
 			<span><cms:text constant="limited_number"/></span>
 		</div>
+		<div class="wrap copyrights">
+			<div class="inner_wrap">
+
+				<div>
+					<cms:text constant="copyright_holyland"/>
+						<a
+							class="$section == 'privacy-policy' ? 'active' : false"
+							href="url_Make('', 'privacy-policy')"
+							cms:eval="href"
+							cms:optional="class"
+							>
+							<cms:text constant="privacy_policy"/>
+						</a>
+				</div>
+
+				<div>
+					<cms:text constant="copyright_way2cu"/>
+
+					<a href="http://way2cu.com" target="_blank">
+						<cms:text constant="way2cu"/>
+					</a>
+
+					<cms:text constant="copyright_rights"/>
+				</div>
+
+			</div>
+		</div>
 	</footer>
 </document>

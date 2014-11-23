@@ -5,18 +5,22 @@
  * Copyright (c) 2014. by Way2CU, http://way2cu.com
  * Author: Khalid Sawalhi
  */
-
+ 
+ footer {
+ 	position: relative;
+ }
+ 
  footer div.inner_wrap.center {
  	display: block;
  	margin: 0px auto;
  	text-align: center;
- 	background-color: grey;
+ 	background-color: #1d1f21;
  	padding-top: 20px;
  	background-image: url(../images/mobile-footer-background.jpg);
  	background-repeat: no-repeat;
  	background-position: center top;
- 	background-size: 150% auto;
- 	min-height: 430px;
+ 	background-size: 180% auto;
+ 	min-height: 740px;
  }
 
  footer div.inner_wrap.center > span:nth-of-type(1)  {
@@ -48,4 +52,50 @@
  	text-shadow: 0px 0px 5px black;
  	color: white;
  	font-size: 0.9rem;
+ }
+
+
+ footer div.wrap.copyrights {
+ 	width: 100%;
+ 	background-color: #1d1f21;
+ 	position: absolute;
+ 	bottom: 0px;
+ }
+
+ footer div.wrap.copyrights div.inner_wrap div {
+ 	display: block;
+ 	text-align: center;
+ 	margin: 0px auto;
+ 	color: white;
+ 	padding: 10px;
+ }
+
+ footer div.wrap.copyrights div.inner_wrap div:nth-of-type(2) {
+ 	background-image: url(../images/way2cu-logo-color.svg);
+ 	background-repeat: no-repeat;
+ 	background-position: 10px center;
+ 	background-size: auto 50px;
+ 	max-width: 280px;
+ 	padding-left: 70px;
+ 	text-align: left;
+ }
+
+ footer div.wrap.copyrights div.inner_wrap div a {
+ 	text-decoration: none;
+ 	color: white;
+ 	padding: 0px 5px;
+
+ 	transition: 0.5s all;
+ }
+
+ footer div.wrap.copyrights div.inner_wrap div:nth-of-type(2) a {
+ 	text-decoration: underline;
+ }
+
+ footer div.wrap.copyrights div.inner_wrap div:nth-of-type(1) a:hover {
+ 	color: #fc4a45;
+ }
+
+ footer div.wrap.copyrights div.inner_wrap div:nth-of-type(2) a:hover {
+ 	color: #5bc2d8;	
  }

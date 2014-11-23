@@ -60,5 +60,17 @@
 		<!-- registry lookup -->
 		<constant name="registry_lookup">Online Registry Lookup</constant>
 		<constant name="certificate_number">Enter certificate number:</constant>
+
+		<!-- copyrights -->
+		<constant name="copyright_holyland">Copyright 2014 Holy Land Gateway LTD | All rights reserved.-</constant>
+		<constant name="privacy_policy"> Privacy Policy and Terms of Use</constant>
+
+
+		<constant name="copyright_way2cu">Designed and developed by</constant>
+		<constant name="way2cu">Way2CU</constant>
+		<constant name="copyright_rights">All rights reserved.</constant>
+		
+		<!-- privacy policy -->
+		<constant name="terms">Terms of Service</constant>
 	</language>
 </document>

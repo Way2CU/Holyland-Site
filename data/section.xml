@@ -25,4 +25,7 @@
 	<section name="registry-lookup">
 		<language name="all" file="registry_lookup.xml" />
 	</section>
+	<section name="privacy-policy">
+		<language name="all" file="privacy_policy.xml" />
+	</section>	
 </document>
