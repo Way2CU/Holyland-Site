@@ -3,6 +3,11 @@
 <document>
 	<article class="product">
 		<h2><cms:var name="$params['name'][$language]"/></h2>
+		<div class="price">
+			<cms:var name="$params['price']"/>
+			<cms:var name="$params['currency']"/>
+		</div>
+
 		<cms:markdown param="description" multilanguage="yes"/>
 		<a
 			 href="url_Make($params['uid'], 'checkout')"
