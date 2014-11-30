@@ -72,16 +72,19 @@ div.wrap div.pricing_container article div.price {
 }
 
 div.wrap div.pricing_container article:nth-of-type(1) h2,
+div.wrap div.pricing_container article:nth-of-type(1) div.price,
 div.wrap div.pricing_container article:nth-of-type(1) h2 + p {
 	color: #375d4c;
 }
 
 div.wrap div.pricing_container article:nth-of-type(2) h2,
+div.wrap div.pricing_container article:nth-of-type(2) div.price,
 div.wrap div.pricing_container article:nth-of-type(2) h2 + p{
 	color: #33516f;
 }
 
 div.wrap div.pricing_container article:nth-of-type(3) h2,
+div.wrap div.pricing_container article:nth-of-type(3) div.price,
 div.wrap div.pricing_container article:nth-of-type(3) h2 + p{
 	color: #cda349;
 }
