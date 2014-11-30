@@ -68,6 +68,10 @@ header nav#main a {
 	transition: 0.3s all;
 }
 
+header nav > section {
+	padding-bottom: 25px;
+}
+
 header nav > section > nav {
 	display: none;
 	font-size: 1rem;
@@ -97,10 +101,12 @@ header nav > section:hover > nav {
 header nav > section {
 	display: inline-block;
 	vertical-align: top;
-	position: relative; 
+	position: relative;
 }
 
-header nav#main a:hover , header nav#main a.active{
+header nav#main a:hover,
+header nav#main section:hover > a,
+header nav#main a.active{
 	background-color: #fc4a45;
 }
 
