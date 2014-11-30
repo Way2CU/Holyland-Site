@@ -5,6 +5,7 @@
 		<h2><cms:var name="$params['name'][$language]"/></h2>
 		<div class="price">
 			<cms:var name="$params['price']"/>
+			<cms:raw text="&amp;nbsp;"/>
 			<cms:var name="$params['currency']"/>
 		</div>
 
