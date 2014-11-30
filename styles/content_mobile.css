@@ -751,16 +751,16 @@ div.wrap.white div.inner_wrap.the_land article  p strong {
 	font-weight: 400;
 }
 
-
-div.wrap div.inner_wrap.lookup > h1 {
-	display: block;
-	margin: 0px auto;
-	padding-top: 70px;
-	color: #33516f;
-	font-size: 1.6rem;
-	text-align: center;
-	font-family: 'Roboto Slab', serif;
-	font-weight: 400;
+div.wrap div.inner_wrap.lookup > h1,
+div.wrap.white div.inner_wrap.privacy > h1 {
+  display: block;
+  margin: 0px auto;
+  padding-top: 70px;
+  color: #33516f;
+  font-size: 1.6rem;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
 }
 
 div.wrap div.inner_wrap.lookup article:nth-of-type(1) {
@@ -809,4 +809,12 @@ div.wrap div.inner_wrap.lookup div.search_container form input[type="submit"] {
 	background-color: #fc4a45;
 	padding: 10px 20px;
 	cursor: pointer;
+}
+
+div.wrap.white div.inner_wrap.privacy p {
+  padding: 0px 20px;
+}
+
+div.wrap.white div.inner_wrap.privacy p strong {
+  display: block;
 }

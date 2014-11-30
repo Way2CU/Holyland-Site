@@ -366,7 +366,7 @@ div.wrap.white div.inner_wrap.location p:before {
 	background-color: #7e8b8c;
 }
 
-div.wrap.white div.inner_wrap.contact > h1:nth-of-type(1) {
+div.wrap.white div.inner_wrap.contact > h1:nth-of-type(1) , div.wrap.white div.inner_wrap.privacy > h1 {
 	display: block;
 	margin: 0px auto;
 	padding: 30px 0px;
@@ -843,6 +843,18 @@ div.wrap div.inner_wrap.lookup div.search_container form input[type="submit"]:ho
 	border-color: #fac825;
 }
 
+div.wrap.white div.inner_wrap.privacy p strong {
+	display: block;
+}
+
+div#input_details div.pages div.page {
+	display: none;
+}
+
+div#input_details div.pages div.page.visible {
+	display: block;
+}
+
 @media (max-width: 1200px) {
 
 	div.wrap.white div.location_container div.call_to_action a:nth-of-type(1) {
@@ -890,12 +902,8 @@ div.wrap div.inner_wrap.lookup div.search_container form input[type="submit"]:ho
 	div.wrap.white div.inner_wrap.the_land > h1 {
 		font-size: 2.2rem;
 	}
-}
 
-div#input_details div.pages div.page {
-	display: none;
-}
-
-div#input_details div.pages div.page.visible {
-	display: block;
+	div.wrap.white div.inner_wrap.privacy p {
+		padding:0px 20px;
+	}
 }
