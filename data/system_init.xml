@@ -10,9 +10,10 @@
 	<module name="articles" order="1" preload="no"/>
 	<module name="contact_form" order="2" preload="no"/>
 	<module name="shop" order="3" preload="no"/>
-	<module name="paypal" order="4" preload="no"/>
-	<module name="gallery" order="5" preload="no"/>
-	<module name="faq" order="6" preload="no"/>
+	<module name="country_list" order="4" preload="no"/>
+	<module name="paypal" order="5" preload="no"/>
+	<module name="gallery" order="6" preload="no"/>
+	<module name="faq" order="7" preload="no"/>
 
 	<user
 		fullname="Administrator"

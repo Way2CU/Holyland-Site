@@ -3,26 +3,33 @@
  * Holy Land
  *
  * Copyright (c) 2014. by Way2CU, http://way2cu.com
- * Authors: Khalid Sawalhi
+ * Authors: Khalid Sawalhi, Mladen Mijatov
  */
 
- var Caracal = Caracal || {};
+var Caracal = Caracal || {};
 
+/**
+ * Handle window scrolling event.
+ *
+ * @param object event
+ */
+function handle_window_scroll(event) {
+	var scroll = $(this).scrollTop();
 
- function handle_window_scroll(event) {
- 	var scroll = $(this).scrollTop();
+	if (scroll > 0 && !Caracal.header.hasClass('detached')) {
+		Caracal.header.addClass('detached');
+	} else if (scroll == 0 && Caracal.header.hasClass('detached')) {
+		Caracal.header.removeClass('detached');
+	}
+}
 
- 	if (scroll > 0 && !Caracal.header.hasClass('detached')) {
- 		Caracal.header.addClass('detached');
+/**
+ * Initialization function.
+ */
+function on_site_load() {
+	Caracal.header = $('header');
 
- 	} else if (scroll == 0 && Caracal.header.hasClass('detached')) {
- 		Caracal.header.removeClass('detached');
- 	}
- }
+	$(window).scroll(handle_window_scroll);
+}
 
- function on_site_load() {
- 	Caracal.header = $('header');
- 	$(window).scroll(handle_window_scroll);
- }
-
- $(on_site_load);
+$(on_site_load);
